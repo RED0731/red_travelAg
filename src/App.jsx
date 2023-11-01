@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="bg-gray-200 w-full min-h-screen overflow-hidden">
+        <div className="bg-gray-100 w-full min-h-screen overflow-hidden">
           <Header />
           <Home />
         </div>
