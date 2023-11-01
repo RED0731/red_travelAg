@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryButton from "../../components/Button/PrimaryButton";
+import { Send } from "react-bootstrap-icons";
 
 const Header = () => {
   return (
@@ -58,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <PrimaryButton>Book Now</PrimaryButton>
+        <PrimaryButton>Book Now <Send /></PrimaryButton>
       </nav>
     </>
   );
