@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    -drag: none;
+    -webkit-user-drag: none;
+}
+.satisfy-font{
+  font-family: 'Satisfy', sans-serif;
 }
 
 @tailwind base;

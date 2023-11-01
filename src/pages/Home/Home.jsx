@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-screen flex items-center justify-between py-24 px-20 gap-8">
-        <div className="w-[50%] h-auto bg-orange-500 rounded-md p-5">
-          Hello this is content section.
+        <div className="w-[50%] h-auto rounded-md">
+          <div className="text-orange-500 text-[1rem] mb-4 satisfy-font">Pack your luggage!</div>
         </div>
-        <div className="w-[35%] h-[65vh] bg-purple-500 rounded-md p-5">
+        <div className="w-[45%] h-[75vh] rounded-md p-5">
           <img
             src={HeroImg}
             alt="Hero Travel Img"
