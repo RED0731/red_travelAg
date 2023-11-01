@@ -28,11 +28,12 @@
   border-radius: 8px;
 }
 ::-webkit-scrollbar-thumb{
-  background: #262644;
+  background: #9ca3af;
   border-radius: 8px;
+  transition: all 0.5s ease-out;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: #292947;
+  background: #6b7280;
   border-radius: 8px;
 }
 

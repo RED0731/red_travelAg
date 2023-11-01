@@ -45,7 +45,7 @@ const Home = () => {
       <div className="w-full h-screen flex items-center justify-center px-20 gap-8">
         <div className="w-full h-full flex items-center justify-between mt-10">
           <div className="w-1/2 h-auto">
-            <div className="text-orange-700 text-[1.5rem] satisfy-font flex items-center gap-3">
+            <div className="text-orange-600 text-[1.5rem] satisfy-font flex items-center gap-3">
               Pack your luggage!{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
