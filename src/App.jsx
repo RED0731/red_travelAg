@@ -1,11 +1,15 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./pages/Header/Header";
 
 function App() {
   return (
     <>
-      <div className="bg-gray-200 w-full min-h-screen text-green-500 p-24">
-        <h1 className="text-[#171721] text-4xl">Hello Travel Website.</h1>
-      </div>
+      <Router>
+        <div className="bg-gray-200 w-full min-h-screen overflow-hidden">
+          <Header />
+        </div>
+      </Router>
     </>
   );
 }
