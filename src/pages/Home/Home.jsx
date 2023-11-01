@@ -5,6 +5,13 @@ import PrimaryButton from "../../components/Button/PrimaryButton";
 import { Search } from "react-bootstrap-icons";
 import Datepicker from "react-tailwindcss-datepicker";
 
+const lightThemeStyles = {
+  // Custom light theme styles here
+  backgroundColor: "#ffffff",
+  color: "#333333", // Text color for light theme
+  // Add more styles as needed
+};
+
 const Home = () => {
   const travel_slogan = useRef(null);
 
@@ -75,13 +82,13 @@ const Home = () => {
               <div className="w-full border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded">
                 <Datepicker
                   inputClassName="w-full cursor-pointer border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded"
-                  classNames="rounded bg-gray-50"
                   primaryColor={"orange"}
-                  placeholder={"Check in — Check out"} 
+                  placeholder={"Check in — Check out"}
                   separator={" — "}
                   useRange={true}
                   value={value}
                   onChange={handleValueChange}
+                  styles={lightThemeStyles} 
                 />
               </div>
               <PrimaryButton>
