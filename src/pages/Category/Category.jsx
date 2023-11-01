@@ -20,32 +20,60 @@ const Category = () => {
         </div>
         <div className="w-full h-auto flex items-center justify-center gap-12">
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={Beach} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
+            <img
+              src={Beach}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Beaches</h1>
             <p className="text-gray-400 text-base font-normal">10+ Tours</p>
           </div>
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={Boat} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
-            <h1 className="text-gray-900 text-[1.2rem] font-bold">Boat Tours</h1>
+            <img
+              src={Boat}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
+            <h1 className="text-gray-900 text-[1.2rem] font-bold">
+              Boat Tours
+            </h1>
             <p className="text-gray-400 text-base font-normal">12+ Tours</p>
           </div>
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={City} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
-            <h1 className="text-gray-900 text-[1.2rem] font-bold">City Tours</h1>
+            <img
+              src={City}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
+            <h1 className="text-gray-900 text-[1.2rem] font-bold">
+              City Tours
+            </h1>
             <p className="text-gray-400 text-base font-normal">25+ Tours</p>
           </div>
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={Adventure} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
+            <img
+              src={Adventure}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Adventure</h1>
             <p className="text-gray-400 text-base font-normal">15+ Tours</p>
           </div>
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={Hiking} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
+            <img
+              src={Hiking}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Hiking</h1>
             <p className="text-gray-400 text-base font-normal">11+ Tours</p>
           </div>
           <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img src={Camping} alt="Category Icon" className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2" />
+            <img
+              src={Camping}
+              alt="Category Icon"
+              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+            />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Camping</h1>
             <p className="text-gray-400 text-base font-normal">16+ Tours</p>
           </div>
