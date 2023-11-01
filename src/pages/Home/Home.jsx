@@ -3,7 +3,6 @@ import HeroImg from "../../assets/Hero/hero.png";
 import Typed from "typed.js";
 
 const Home = () => {
-  // Create reference to store the DOM element containing the animation
   const travel_slogan = useRef(null);
 
   useEffect(() => {
@@ -15,7 +14,6 @@ const Home = () => {
     });
 
     return () => {
-      // Destroy Typed instance during cleanup to stop animation
       typed.destroy();
     };
   }, []);
@@ -24,7 +22,7 @@ const Home = () => {
       <div className="w-full h-screen flex items-center justify-center px-20 gap-8">
         <div className="w-full h-full flex items-center justify-between mt-10">
           <div className="w-1/2 h-auto">
-            <div className="text-orange-700 text-[1.5rem] mb-4 satisfy-font flex items-center gap-3">
+            <div className="text-orange-700 text-[1.5rem] satisfy-font flex items-center gap-3">
               Pack your luggage!{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +36,7 @@ const Home = () => {
                 <path d="M3 7.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0v-5ZM11 6a1.5 1.5 0 0 1 1.5 1.5V8h2A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 14.5v-5A1.5 1.5 0 0 1 6.5 8h2v-.5A1.5 1.5 0 0 1 10 6h1ZM9.5 7.5V8h2v-.5A.5.5 0 0 0 11 7h-1a.5.5 0 0 0-.5.5ZM6 9.5v5a.5.5 0 0 0 .5.5H7V9h-.5a.5.5 0 0 0-.5.5Zm7 5.5V9H8v6h5Zm1.5 0a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5H14v6h.5Z" />
               </svg>
             </div>
-            <h1 className="text-gray-900 text-6xl leading-[5rem] font-black mb-2">
+            <h1 className="text-gray-900 text-6xl leading-[5rem] font-black">
               Discover your next <br />
               <span className="text-9xl my-3" ref={travel_slogan} /> <br />
               with us
