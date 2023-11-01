@@ -1,6 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import HeroImg from "../../assets/Hero/hero.png";
 import Typed from "typed.js";
+import PrimaryButton from "../../components/Button/PrimaryButton";
+import { Search } from "react-bootstrap-icons";
+import Datepicker from "react-tailwindcss-datepicker";
 
 const Home = () => {
   const travel_slogan = useRef(null);
@@ -17,6 +20,19 @@ const Home = () => {
       typed.destroy();
     };
   }, []);
+
+  //   DateRangePicker Library
+  const [value, setValue] = useState({
+    // startDate: new Date(),
+    // endDate: new Date().setMonth(11),
+    startDate: null,
+    endDate: null,
+  });
+
+  const handleValueChange = (newValue) => {
+    console.log("newValue:", newValue);
+    setValue(newValue);
+  };
   return (
     <>
       <div className="w-full h-screen flex items-center justify-center px-20 gap-8">
@@ -38,12 +54,39 @@ const Home = () => {
             </div>
             <h1 className="text-gray-900 text-6xl leading-[5rem] font-black">
               Discover your next <br />
-              <span className="text-9xl my-3" ref={travel_slogan} /> <br />
-              with us
+              <span
+                className="text-9xl my-3 text-orange-500"
+                ref={travel_slogan}
+              />{" "}
+              <br />
+              with Travel.Ag
             </h1>
-            <p className="text-gray-500 text-xl font-normal">
+            <p className="text-gray-500 text-xl font-normal mb-7">
               Embrace the journey; Travel with passion and purpose.
             </p>
+            <div className="w-full h-auto bg-gray-400/70 flex items-center gap-1 p-6 rounded-md">
+              <input
+                type="text"
+                name="price"
+                id="price"
+                className="w-full rounded border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6"
+                placeholder="Where to go?"
+              />
+              <div className="w-full border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded">
+                <Datepicker
+                  inputClassName="w-full cursor-pointer border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded"
+                //   classNames={"rounded bg-gray-50"}
+                  placeholder={"Check in — Check out"} 
+                  separator={" — "}
+                  useRange={true}
+                  value={value}
+                  onChange={handleValueChange}
+                />
+              </div>
+              <PrimaryButton>
+                Search <Search></Search>{" "}
+              </PrimaryButton>
+            </div>
           </div>
           <div className="w-[45%] h-[75vh]">
             <img
