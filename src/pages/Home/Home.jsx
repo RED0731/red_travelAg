@@ -64,7 +64,7 @@ const Home = () => {
             <p className="text-gray-500 text-xl font-normal mb-7">
               Embrace the journey; Travel with passion and purpose.
             </p>
-            <div className="w-full h-auto bg-gray-400/70 flex items-center gap-1 p-6 rounded-md">
+            <div className="w-full h-auto bg-gray-400/80 flex items-center gap-1 p-6 rounded-md">
               <input
                 type="text"
                 name="price"
@@ -75,7 +75,8 @@ const Home = () => {
               <div className="w-full border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded">
                 <Datepicker
                   inputClassName="w-full cursor-pointer border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:ring-2 focus:ring-orange-600 sm:text-sm sm:leading-6 rounded"
-                //   classNames={"rounded bg-gray-50"}
+                  classNames="rounded bg-gray-50"
+                  primaryColor={"orange"}
                   placeholder={"Check in — Check out"} 
                   separator={" — "}
                   useRange={true}
