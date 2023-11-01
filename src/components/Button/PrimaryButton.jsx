@@ -3,8 +3,8 @@ import React from "react";
 const PrimaryButton = ({ children }) => {
   return (
     <>
-      <button className="bg-[#e24806] text-[#171721] py-2 px-6 text-[1.15rem] font-medium outline-none border-2 border-[#e24806] rounded-[6px] hover:bg-[#e24806]/[0.35] hover:border-[#e24806]/[0.55] hover:text-gray-200 ease-out duration-700">
-        {children}
+      <button className="bg-orange-500 text-gray-900 py-1 px-4 text-[1rem] font-medium outline-none border-2 border-orange-500 rounded-[6px] hover:bg-orange-500/[0.55] hover:border-orange-500/[0.55] hover:text-gray-700 ease-out duration-700">
+        {children} 
       </button>
     </>
   );
