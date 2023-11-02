@@ -1,5 +1,6 @@
 import React from "react";
 import AboutImg from "../../assets/About/about.png";
+import PrimaryButton from "../../components/Button/PrimaryButton";
 
 const About = () => {
   return (
@@ -21,29 +22,76 @@ const About = () => {
               Enjoy Your Travel
             </h1>
           </div>
-          <div className="text-start">
+          <div className="text-start mb-5">
             <p className="text-gray-400 text-[1.1rem] font-normal mb-4">
               Embrace a worry-free travel experience with us as we strive to
               make your journey more enjoyable. From seamless itineraries to
               handpicked accommodations, we take care of every detail, leaving
               you free to savor every moment and create unforgettable memories.
             </p>
-            <div className="flex items-center justify-start text-start">
+            <div className="flex items-start justify-start text-start gap-x-3 mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="26"
-                height="26"
+                width="16"
+                height="16"
                 fill="currentColor"
-                class="bi bi-arrow-right text-orange-500"
+                class="bi bi-check-circle-fill text-orange-500"
                 viewBox="0 0 16 16"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
               </svg>
+              <p className="text-gray-500 text-[1.1rem] font-normal">
+                Dedicated 24/7 support team ready to assist you at any moment.
+              </p>
+            </div>
+            <div className="flex items-start justify-start text-start gap-x-3 mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-check-circle-fill text-orange-500"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
+              <p className="text-gray-500 text-[1.1rem] font-normal">
+                Hand picked premium Accommodations that guarantee comfort and
+                relaxation.
+              </p>
+            </div>
+            <div className="flex items-start justify-start text-start gap-x-3 mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-check-circle-fill text-orange-500"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+              </svg>
+              <p className="text-gray-500 text-[1.1rem] font-normal">
+                Award winning tour & travel arranger
+              </p>
             </div>
           </div>
+          <PrimaryButton className="py-2">
+            Read More{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+              />
+            </svg>
+          </PrimaryButton>
         </div>
       </div>
     </>
