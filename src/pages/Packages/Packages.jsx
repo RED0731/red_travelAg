@@ -14,11 +14,11 @@ const Packages = () => {
         </div>
         <div className="w-full h-auto flex items-center justify-center mb-6 gap-5">
           <div className="w-[25%] h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden">
-            <div className="w-full h-[30vh] overflow-hidden">
+            <div className="w-full h-[30vh] overflow-hidden relative">
               <img
                 src="https://cdn.pixabay.com/photo/2019/09/15/07/31/everest-base-camp-4477525_1280.jpg"
                 alt=""
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center hover:scale-150 hover:rotate-[20deg] ease-out duration-700"
               />
             </div>
             <div className="w-full h-auto p-4">
@@ -62,6 +62,8 @@ const Packages = () => {
               <div className="w-full h-auto flex items-center gap-3 mb-3">
                 <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">City tour</div>
                 <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">Adventure</div>
+                <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">Camping</div>
+                <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">Hiking</div>
               </div>
             </div>
           </div>
