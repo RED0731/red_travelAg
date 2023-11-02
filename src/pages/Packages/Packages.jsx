@@ -7,6 +7,7 @@ import Uk from "../../assets/Packages/uk.jpg";
 import UkFlag from "../../assets/Packages/uk.png";
 import India from "../../assets/Packages/india.jpg";
 import IndiaFlag from "../../assets/Packages/india.png";
+import SecondaryButton from "../../components/Button/SecondaryButton";
 
 const Packages = () => {
   return (
@@ -20,7 +21,7 @@ const Packages = () => {
             Most Popular Package
           </h1>
         </div>
-        <div className="w-full h-auto flex items-center justify-center mb-6 gap-5">
+        <div className="w-full h-auto flex items-center justify-center mb-10 gap-5">
           <div className="w-[25%] h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden hover:-translate-y-5 ease-out duration-700">
             <div className="w-full h-auto relative mb-6">
               <div className="w-full h-[30vh] overflow-hidden">
@@ -38,7 +39,8 @@ const Packages = () => {
                 />
               </div>
               <div className="absolute -bottom-3 right-4 bg-orange-500 text-[0.75rem] font-medium text-gray-900 py-0.5 px-2 rounded-md">
-                From <span className="text-[0.9rem] font-semibold">$125.23</span>
+                From{" "}
+                <span className="text-[0.9rem] font-semibold">$125.23</span>
               </div>
             </div>
             <div className="w-full h-auto p-4">
@@ -112,7 +114,8 @@ const Packages = () => {
                 />
               </div>
               <div className="absolute -bottom-3 right-4 bg-orange-500 text-[0.75rem] font-medium text-gray-900 py-0.5 px-2 rounded-md">
-                From <span className="text-[0.9rem] font-semibold">$130.23</span>
+                From{" "}
+                <span className="text-[0.9rem] font-semibold">$130.23</span>
               </div>
             </div>
             <div className="w-full h-auto p-4">
@@ -186,7 +189,8 @@ const Packages = () => {
                 />
               </div>
               <div className="absolute -bottom-3 right-4 bg-orange-500 text-[0.75rem] font-medium text-gray-900 py-0.5 px-2 rounded-md">
-                From <span className="text-[0.9rem] font-semibold">$135.23</span>
+                From{" "}
+                <span className="text-[0.9rem] font-semibold">$135.23</span>
               </div>
             </div>
             <div className="w-full h-auto p-4">
@@ -260,7 +264,8 @@ const Packages = () => {
                 />
               </div>
               <div className="absolute -bottom-3 right-4 bg-orange-500 text-[0.75rem] font-medium text-gray-900 py-0.5 px-2 rounded-md">
-                From <span className="text-[0.9rem] font-semibold">$126.23</span>
+                From{" "}
+                <span className="text-[0.9rem] font-semibold">$126.23</span>
               </div>
             </div>
             <div className="w-full h-auto p-4">
@@ -317,6 +322,25 @@ const Packages = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-full h-auto flex items-center justify-center">
+          <SecondaryButton>
+            Load more{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-arrow-clockwise font-black"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"
+              />
+              <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z" />
+            </svg>
+          </SecondaryButton>
         </div>
       </div>
     </>
