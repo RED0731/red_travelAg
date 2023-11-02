@@ -23,7 +23,7 @@ const Category = () => {
             <img
               src={Beach}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Beaches</h1>
             <p className="text-gray-400 text-base font-normal">10+ Tours</p>
@@ -32,7 +32,7 @@ const Category = () => {
             <img
               src={Boat}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">
               Boat Tours
@@ -43,7 +43,7 @@ const Category = () => {
             <img
               src={City}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">
               City Tours
@@ -54,7 +54,7 @@ const Category = () => {
             <img
               src={Adventure}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Adventure</h1>
             <p className="text-gray-400 text-base font-normal">15+ Tours</p>
@@ -63,7 +63,7 @@ const Category = () => {
             <img
               src={Hiking}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Hiking</h1>
             <p className="text-gray-400 text-base font-normal">11+ Tours</p>
@@ -72,7 +72,7 @@ const Category = () => {
             <img
               src={Camping}
               alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 bg-orange-600/30 rounded-lg mb-2"
+              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Camping</h1>
             <p className="text-gray-400 text-base font-normal">16+ Tours</p>
