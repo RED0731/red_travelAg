@@ -4,6 +4,8 @@ import Header from "./pages/Header/Header";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Category from "./pages/Category/Category";
+import Destination from "./pages/Destination/Destination";
+import Packages from "./pages/Packages/Packages";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Home />
           <Category />
           <About />
+          <Packages />
+          <Destination />
         </div>
       </Router>
     </>
