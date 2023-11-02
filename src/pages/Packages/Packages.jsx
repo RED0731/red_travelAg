@@ -59,6 +59,10 @@ const Packages = () => {
                 </div>
               </div>
               <div className="w-full h-[1px] bg-gray-300 my-5"></div>
+              <div className="w-full h-auto flex items-center gap-3 mb-3">
+                <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">City tour</div>
+                <div className="bg-orange-300/70 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">Adventure</div>
+              </div>
             </div>
           </div>
         </div>
