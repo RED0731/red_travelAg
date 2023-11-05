@@ -20,6 +20,7 @@ function App() {
           <Packages />
           <Destination />
           <Banner />
+          <Packages />
         </div>
       </Router>
     </>
