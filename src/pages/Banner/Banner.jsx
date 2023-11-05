@@ -13,7 +13,7 @@ const Banner = () => {
               className="w-full h-[60vh] object-cover object-center rounded-lg"
             />
             <div className="w-[70px] h-[70px] bg-orange-500 rounded-full absolute m-auto left-0 right-0 top-0 bottom-0 flex items-center justify-center">
-              <div className="w-full h-full animate-ping flex items-center justify-center">
+              <div className="w-full h-full animate-[wiggle_2s_ease-in-out_infinite] flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
