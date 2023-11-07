@@ -14,7 +14,7 @@ const Offer = () => {
             Best Offers
           </h1>
         </div>
-        <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-4 gap-y-5 flex-wrap">
+        <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
           <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
