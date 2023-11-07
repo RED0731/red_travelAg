@@ -6,7 +6,7 @@ const Banner = () => {
     <>
       <div className="w-full h-auto">
         <div className="py-20"></div>
-        <div className="w-full h-auto bg-gray-950 py-16 px-20 relative">
+        <div className="w-full h-auto bg-gray-950 pt-16 pb-2 px-20 relative">
           <div className="w-full h-auto -mt-60 p-2 bg-white rounded-2xl shadow-md shadow-gray-800 relative">
             <img
               src="https://cdn.pixabay.com/photo/2021/08/14/04/15/mountains-6544522_1280.jpg"
@@ -33,8 +33,23 @@ const Banner = () => {
               </div>
             </Link>
           </div>
-          <div className="w-full bg-gray-600 h-auto flex items-center justify-between gap-10 py-20">
-            <div className="p-8 bg-orange-700 rounded"></div>
+          <div className="w-full h-auto flex items-center justify-between gap-10 py-20">
+            <div className="p-8 rounded text-1xl font-black leading-4 flex items-center justify-center flex-col gap-2">
+              <div className="text-7xl font-black stroke-text">900+</div>
+              <p className="text-xl text-gray-400">Destinations</p>
+            </div>
+            <div className="p-8 rounded text-1xl font-black leading-4 flex items-center justify-center flex-col gap-2">
+              <div className="text-7xl font-black stroke-text">9500+</div>
+              <p className="text-xl text-gray-400">Total Travelers</p>
+            </div>
+            <div className="p-8 rounded text-1xl font-black leading-4 flex items-center justify-center flex-col gap-2">
+              <div className="text-7xl font-black stroke-text">70+</div>
+              <p className="text-xl text-gray-400">Tour packages</p>
+            </div>
+            <div className="p-8 rounded text-1xl font-black leading-4 flex items-center justify-center flex-col gap-2">
+              <div className="text-7xl font-black stroke-text">150+</div>
+              <p className="text-xl text-gray-400">Expert Guides</p>
+            </div>
           </div>
         </div>
       </div>
