@@ -18,7 +18,7 @@ function App() {
           <Category />
           <About />
           <Packages />
-          <Destination />
+          <Destination /> 
           <Banner />
           <Packages />
         </div>
