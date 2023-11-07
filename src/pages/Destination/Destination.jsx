@@ -83,7 +83,7 @@ const Destination = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-auto flex items-center justify-center">
+        <div className="w-full h-auto flex items-center justify-center mb-6">
           <SecondaryButton>
             View more{" "}
             <svg
