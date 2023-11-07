@@ -7,6 +7,7 @@ import Category from "./pages/Category/Category";
 import Destination from "./pages/Destination/Destination";
 import Packages from "./pages/Packages/Packages";
 import Banner from "./pages/Banner/Banner";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Packages />
           <Destination /> 
           <Banner />
-          <Packages />
+          <Contact />
         </div>
       </Router>
     </>
