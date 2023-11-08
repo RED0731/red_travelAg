@@ -9,6 +9,7 @@ import Packages from "./pages/Packages/Packages";
 import Banner from "./pages/Banner/Banner";
 import Contact from "./pages/Contact/Contact";
 import Offer from "./pages/Offer/Offer";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Destination /> 
           <Banner />
           <Offer />
+          <Blog />
           <Contact />
         </div>
       </Router>

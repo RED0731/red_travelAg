@@ -15,7 +15,7 @@ const Offer = () => {
           </h1>
         </div>
         <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
               alt=""
@@ -36,7 +36,7 @@ const Offer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg"
               alt=""
@@ -57,7 +57,7 @@ const Offer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg"
               alt=""
@@ -78,7 +78,7 @@ const Offer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg"
               alt=""
@@ -99,7 +99,7 @@ const Offer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
               alt=""
@@ -120,7 +120,7 @@ const Offer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-[6px] border-gray-300 hover:border-b-[6px] hover:border-orange-500 ease-out duration-700 overflow-hidden">
+          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
             <img
               src="https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg"
               alt=""
