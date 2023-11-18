@@ -10,6 +10,7 @@ import Banner from "./pages/Banner/Banner";
 import Contact from "./pages/Contact/Contact";
 import Offer from "./pages/Offer/Offer";
 import Blog from "./pages/Blog/Blog";
+import Footer from "./pages/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Offer />
           <Blog />
           <Contact />
+          <Footer />
         </div>
       </Router>
     </>
