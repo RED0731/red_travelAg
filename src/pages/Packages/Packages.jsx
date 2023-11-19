@@ -62,7 +62,7 @@ const Packages = () => {
                     </svg>{" "}
                     4.8
                   </div>
-                  <h6 className="text-gray-400 text-base font-normal">
+                  <h6 className="text-gray-600 text-[0.8rem] font-normal">
                     20 Reviews
                   </h6>
                 </div>
@@ -137,7 +137,7 @@ const Packages = () => {
                     </svg>{" "}
                     4.8
                   </div>
-                  <h6 className="text-gray-400 text-base font-normal">
+                  <h6 className="text-gray-600 text-[0.8rem] font-normal">
                     20 Reviews
                   </h6>
                 </div>
@@ -212,7 +212,7 @@ const Packages = () => {
                     </svg>{" "}
                     4.8
                   </div>
-                  <h6 className="text-gray-400 text-base font-normal">
+                  <h6 className="text-gray-600 text-[0.8rem] font-normal">
                     20 Reviews
                   </h6>
                 </div>
@@ -287,7 +287,7 @@ const Packages = () => {
                     </svg>{" "}
                     4.8
                   </div>
-                  <h6 className="text-gray-400 text-base font-normal">
+                  <h6 className="text-gray-600 text-[0.8rem] font-normal">
                     20 Reviews
                   </h6>
                 </div>
