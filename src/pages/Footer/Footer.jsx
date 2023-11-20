@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-auto py-16 px-20 bg-gray-200/30">
+      <div className="w-full h-auto py-16 px-20 bg-gray-200/30 flex items-start gap-6">
         <div className="w-[30%] h-auto">
           <div className="mb-3">
             <Link
@@ -125,6 +125,52 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
+        </div>
+        <div className="w-1/4 h-auto">
+          <h1 className="text-2xl text-gray-950 font-black mb-5">
+            Top Destination
+          </h1>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
+            <div className="w-[7px] h-[7px] rounded-full bg-orange-500"></div>
+            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+              Annapurna Base Camp (ABC), Nepal
+            </h6>
+          </div>
+        </div>
+        <div className="w-1/4 h-auto">
+          <h1 className="text-2xl text-gray-950 font-black mb-5">
+            Top Categories
+          </h1>
         </div>
       </div>
     </>
