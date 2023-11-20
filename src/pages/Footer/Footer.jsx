@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-auto py-16 px-20 bg-gray-200">
+      <div className="w-full h-auto py-16 px-20 bg-gray-200/30">
         <div className="w-[30%] h-auto">
           <div className="mb-3">
             <Link
@@ -17,11 +17,64 @@ const Footer = () => {
               </sup>
             </Link>
           </div>
-          <p className="text-gray-500 text-base font-normal mb-8">
+          <p className="text-gray-500 text-[0.95rem] font-normal mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             neque quis enim. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Cum ipsum aperiam sequi.
           </p>
+          <div className="w-full h-auto mb-8">
+            <div className="w-full h-auto text-gray-700 flex items-center gap-x-1.5 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-geo-fill text-orange-600"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                />
+              </svg>
+              <p className="text-base text-gray-700 font-normal hover:text-orange-600 cursor-pointer ease-out duration-700">
+                Nagarjun-01 thulobharyang, Kathmandu.
+              </p>
+            </div>
+            <div className="w-full h-auto text-gray-700 flex items-center gap-x-1.5 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone-fill text-orange-600"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              <p className="text-base text-gray-700 font-normal hover:text-orange-600 cursor-pointer ease-out duration-700">
+                +977-9809597153
+              </p>
+            </div>
+            <div className="w-full h-auto text-gray-700 flex items-center gap-x-1.5 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope-open-fill text-orange-600"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z" />
+              </svg>
+              <p className="text-base text-gray-700 font-normal hover:text-orange-600 cursor-pointer ease-out duration-700">
+                agokarna444@gmail.com
+              </p>
+            </div>
+          </div>
           <div className="w-full h-auto flex items-center gap-4">
             <Link className="text-2xl p-1.5 rounded-md bg-gray-400/70 hover:bg-orange-400/70 ease-out duration-700">
               <svg
