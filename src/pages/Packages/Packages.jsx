@@ -66,7 +66,7 @@ const Packages = () => {
                     20 Reviews
                   </h6>
                 </div>
-                <div className="text-base text-gray-500 font-normal flex items-center gap-x-1">
+                <div className="text-[0.9rem] text-gray-600 font-normal flex items-center gap-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -141,7 +141,7 @@ const Packages = () => {
                     20 Reviews
                   </h6>
                 </div>
-                <div className="text-base text-gray-500 font-normal flex items-center gap-x-1">
+                <div className="text-[0.9rem] text-gray-600 font-normal flex items-center gap-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -216,7 +216,7 @@ const Packages = () => {
                     20 Reviews
                   </h6>
                 </div>
-                <div className="text-base text-gray-500 font-normal flex items-center gap-x-1">
+                <div className="text-[0.9rem] text-gray-600 font-normal flex items-center gap-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -291,7 +291,7 @@ const Packages = () => {
                     20 Reviews
                   </h6>
                 </div>
-                <div className="text-base text-gray-500 font-normal flex items-center gap-x-1">
+                <div className="text-[0.9rem] text-gray-600 font-normal flex items-center gap-x-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
