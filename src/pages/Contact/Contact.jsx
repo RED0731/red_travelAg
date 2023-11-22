@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryButton from "../../components/Button/PrimaryButton";
 
 const Contact = () => {
   return (
@@ -58,7 +59,7 @@ const Contact = () => {
               </h6>
             </div>
           </div>
-          <div className="w-full h-auto flex items-center gap-x-3 mb-8">
+          <div className="w-full h-auto flex items-center gap-x-3">
             <div className="w-[50px] h-[50px] rounded-md bg-gray-100 shadow-md flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +109,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="w-full h-auto flex items-center gap-x-8">
+          <div className="w-full h-auto flex items-center gap-x-8 mb-10">
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <input
                 type="number"
@@ -129,6 +130,16 @@ const Contact = () => {
               </select>
             </div>
           </div>
+          <div className="w-full h-[130px] bg-gray-300 border-none rounded-md overflow-hidden mb-10">
+            <textarea
+              id="message"
+              className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 resize-none ease-out duration-700"
+              placeholder="Type you message..."
+            ></textarea>
+          </div>
+          <button className="bg-orange-500 flex items-center gap-x-2 text-[#ffffff] py-2.5 px-9 text-[1rem] tracking-wide font-medium outline-none border-2 border-orange-500 rounded-md hover:bg-orange-500/[0.55] hover:border-orange-500/[0.55] hover:text-gray-900 ease-out duration-700">
+            Submit
+          </button>
         </div>
       </div>
     </>
