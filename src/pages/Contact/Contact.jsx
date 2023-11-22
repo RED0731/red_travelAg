@@ -82,7 +82,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-[60%] h-auto bg-indigo-00 rounded-xl p-4">
-          <div className="w-full h-auto flex items-center gap-x-8">
+          <div className="w-full h-auto flex items-center gap-8 mb-10">
             <div className="w-1/2 h-[50px] bg-gray-300 border-none rounded-md overflow-hidden">
               <input
                 type="text"
@@ -100,6 +100,27 @@ const Contact = () => {
                 placeholder="Email Id"
                 required
               />
+            </div>
+          </div>
+          <div className="w-full h-auto flex items-center gap-x-8">
+            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+              <input
+                type="number"
+                id="phone"
+                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-300 focus:border-orange-500 ease-out duration-700"
+                placeholder="Phone nbr."
+                required
+              />
+            </div>
+            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+              <select
+                id="countries"
+                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-200 focus:border-orange-500 ease-out duration-700"
+              >
+                <option selected>Need tour expert team?</option>
+                <option value="YES">YES</option>
+                <option value="NO">NO</option>
+              </select>
             </div>
           </div>
         </div>
