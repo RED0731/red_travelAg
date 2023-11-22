@@ -11,8 +11,8 @@ const Contact = () => {
           <h1 className="text-3xl text-gray-100 font-black tracking-wider capitalize mb-5">
             Speck with expert/ experienced teams.
           </h1>
-          <div className="w-full h-auto flex items-center gap-x-3">
-            <div className="w-[40px] h-[40px] rounded-md bg-gray-100 shadow-md flex items-center justify-center">
+          <div className="w-full h-auto flex items-center gap-x-3 mb-8">
+            <div className="w-[50px] h-[50px] rounded-md bg-gray-100 shadow-md flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
@@ -23,6 +23,10 @@ const Contact = () => {
               >
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
               </svg>
+            </div>
+            <div className="flex items-start flex-col">
+              <h5 className="text-gray-200 text-[1.15rem] font-semibold tracking-wider">Email Id</h5>
+              <h6 className="text-gray-100 text-base font-normal">ag@info.com</h6>
             </div>
           </div>
         </div>
