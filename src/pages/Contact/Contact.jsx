@@ -125,8 +125,8 @@ const Contact = () => {
                 className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
               >
                 <option selected>Need tour expert team?</option>
-                <option value="YES">YES</option>
-                <option value="NO">NO</option>
+                <option value="ag">Expore With AG</option>
+                <option value="myself">Explore Myself</option>
               </select>
             </div>
           </div>
