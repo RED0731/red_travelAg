@@ -82,21 +82,27 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-[60%] h-auto bg-indigo-00 rounded-xl p-4">
+          <p className="text-gray-900 text-[0.9rem] font-normal tracking-wider uppercase mb-3.5">
+            Get in touch
+          </p>
+          <h1 className="text-4xl text-gray-950 font-black tracking-wide capitalize mb-10">
+            Fill your information
+          </h1>
           <div className="w-full h-auto flex items-center gap-8 mb-10">
-            <div className="w-1/2 h-[50px] bg-gray-300 border-none rounded-md overflow-hidden">
+            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <input
                 type="text"
                 id="fullname"
-                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-300 focus:border-orange-500 ease-out duration-700"
+                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
                 placeholder="Full Name"
                 required
               />
             </div>
-            <div className="w-1/2 h-[50px] bg-gray-300 border-none rounded-md overflow-hidden">
+            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <input
                 type="email"
                 id="email"
-                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-300 focus:border-orange-500 ease-out duration-700"
+                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
                 placeholder="Email Id"
                 required
               />
@@ -107,7 +113,7 @@ const Contact = () => {
               <input
                 type="number"
                 id="phone"
-                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-300 focus:border-orange-500 ease-out duration-700"
+                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
                 placeholder="Phone nbr."
                 required
               />
@@ -115,7 +121,7 @@ const Contact = () => {
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <select
                 id="countries"
-                class="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-200 focus:border-orange-500 ease-out duration-700"
+                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
               >
                 <option selected>Need tour expert team?</option>
                 <option value="YES">YES</option>
