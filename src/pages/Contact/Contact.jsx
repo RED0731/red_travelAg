@@ -55,7 +55,7 @@ const Contact = () => {
                 Phone Nbr.
               </h5>
               <h6 className="text-gray-100 text-base font-normal">
-                +977-9809597153
+                +977-9809***1*3
               </h6>
             </div>
           </div>
