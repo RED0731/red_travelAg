@@ -77,7 +77,7 @@ const Contact = () => {
                 Address
               </h5>
               <h6 className="text-gray-100 text-base font-normal">
-                Nagarjun-01 thulobharyang, Kathmandu.
+                Bagmati Kathmandu, Nepal, 44600
               </h6>
             </div>
           </div>
