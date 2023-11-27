@@ -1,6 +1,5 @@
 import React from "react";
 import "./Destination.css";
-import SecondaryButton from "../../components/Button/SecondaryButton";
 import Tag from "../../components/Tag/Tag";
 import Viewmore from "../../components/Viewmore/Viewmore";
 

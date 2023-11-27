@@ -5,30 +5,35 @@ import City from "../../assets/Category/city1.png";
 import Adventure from "../../assets/Category/adventure.png";
 import Hiking from "../../assets/Category/hiking.png";
 import Camping from "../../assets/Category/camping.png";
+import Tag from "../../components/Tag/Tag";
 
 const Category = () => {
+  const Category = [
+    {
+      id: 1,
+      imgUrl: Beach,
+      title: "Beaches",
+      totalTour: "10+ Tours",
+    },
+  ];
   return (
     <>
       <div className="w-full h-auto flex items-center justify-center flex-col py-16 px-20">
-        <div className="text-center mb-10">
-          <div className="satisfy-font text-2xl font-medium text-orange-500 text-center">
-            Browse by Category
-          </div>
-          <h1 className="text-[2.5rem] text-gray-900 text-center font-black">
-            Select your Type
-          </h1>
-        </div>
+        <Tag tagSlog="Browse by Category" tagTitle="Select your Type" />
         <div className="w-full h-auto flex items-center justify-center gap-12">
-          <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
-            <img
-              src={Beach}
-              alt="Category Icon"
-              className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
-            />
-            <h1 className="text-gray-900 text-[1.2rem] font-bold">Beaches</h1>
-            <p className="text-gray-400 text-base font-normal">10+ Tours</p>
-          </div>
-          <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
+          {Category.map((category) => (
+            <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
+              <img
+                src={category.imgUrl}
+                alt="Category Icon"
+                className="w-[70px] h-[70px] object-contain object-center p-1 brightness-75 bg-orange-600/30 rounded-lg mb-2"
+              />
+              <h1 className="text-gray-900 text-[1.2rem] font-bold">{category.title}</h1>
+              <p className="text-gray-400 text-base font-normal">{category.totalTour}</p>
+            </div>
+          ))}
+          {/*
+          {/* <div className="w-[180px] h-auto flex items-center justify-center flex-col text-center bg-white p-5 border border-gray-300 rounded-lg cursor-pointer hover:border hover:border-orange-500 ease-out duration-500">
             <img
               src={Boat}
               alt="Category Icon"
@@ -76,7 +81,7 @@ const Category = () => {
             />
             <h1 className="text-gray-900 text-[1.2rem] font-bold">Camping</h1>
             <p className="text-gray-400 text-base font-normal">16+ Tours</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
