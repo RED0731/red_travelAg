@@ -6,31 +6,45 @@ const Offer = () => {
   const Offers = [
     {
       id: 1,
-      img: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
+      imgUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
       title: "Hot Air Ballon, Nepal",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$100",
     },
     {
       id: 2,
-      img: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
+      imgUrl: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
       title: "Title Section",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$180.00",
     },
     {
       id: 3,
-      img: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      imgUrl: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
       title: "Title Section",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$150.00",
     },
     {
       id: 4,
-      img: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      imgUrl: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
       title: "Title Section",
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$150.00",
+    },
+    {
+      id: 5,
+      imgUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
+      title: "Hot Air Ballon, Nepal",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$100",
+    },
+    {
+      id: 6,
+      imgUrl: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
+      title: "Title Section",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$180.00",
     },
   ];
   return (
@@ -51,7 +65,7 @@ const Offer = () => {
               className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden"
             >
               <img
-                src={offer.img}
+                src={offer.imgUrl}
                 alt=""
                 className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
               />
