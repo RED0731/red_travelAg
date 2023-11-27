@@ -1,49 +1,62 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryButton from "../../components/Button/PrimaryButton";
+// import Viewmore from "../../components/Viewmore/Viewmore";
 
 const Offer = () => {
   const Offers = [
     {
       id: 1,
-      imgUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
       title: "Hot Air Ballon, Nepal",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$100",
     },
     {
       id: 2,
-      imgUrl: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
       title: "Title Section",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$180.00",
     },
     {
       id: 3,
-      imgUrl: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
       title: "Title Section",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$150.00",
     },
     {
       id: 4,
-      imgUrl: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
       title: "Title Section",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$150.00",
     },
     {
       id: 5,
-      imgUrl: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
       title: "Hot Air Ballon, Nepal",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$100",
     },
     {
       id: 6,
-      imgUrl: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
       title: "Title Section",
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
       price: "$180.00",
     },
   ];
@@ -78,30 +91,15 @@ const Offer = () => {
                 </p>
                 <div className="w-full h-auto flex items-center justify-between">
                   <PrimaryButton>Book Now</PrimaryButton>
-                  <h6 className="text-xl text-orange-600 font-bold">{offer.price}</h6>
+                  <h6 className="text-xl text-orange-600 font-bold">
+                    {offer.price}
+                  </h6>
                 </div>
               </div>
             </div>
           ))}
         </div>
-        {/* <div className="w-full h-auto flex items-center justify-center mb-6">
-          <SecondaryButton>
-            {" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-arrow-right"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-              />
-            </svg>
-          </SecondaryButton>
-        </div> */}
+        {/* <Viewmore /> */}
       </div>
     </>
   );
