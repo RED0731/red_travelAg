@@ -4,6 +4,13 @@ import PrimaryButton from "../../components/Button/PrimaryButton";
 import { Send } from "react-bootstrap-icons";
 
 const Header = () => {
+  const Links = [
+    { title: "Home", link: "/" },
+    { title: "About", link: "/about" },
+    { title: "Packages", link: "/packages" },
+    { title: "Blog", link: "/blog" },
+    { title: "Contact", link: "/contact" },
+  ];
   return (
     <>
       <nav className="w-full h-auto bg-gray-100 shadow-md py-4 px-20 fixed top-0 flex items-center justify-between z-10">
@@ -20,46 +27,18 @@ const Header = () => {
             </Link>
           </div>
           <ul className="list-none flex items-center gap-6">
-            <li>
-              {/* <Link className="text-[1.1rem] text-orange-500 font-medium py-[0.15rem] px-3 bg-orange-500/20 rounded-full">
-                Home
-              </Link> */}
-              {/* <Link className="text-[1.1rem] text-orange-500 font-medium border-b-2 border-orange-500">
-                Home
-              </Link> */}
-              <Link className="text-[1.1rem] text-orange-500 font-medium">
-                Home
-              </Link>
-            </li>
-            <li>
-              {/* <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium py-1 px-3 hover:bg-orange-500/20 rounded-full ease-out duration-700">
-                Packages
-              </Link> */}
-              {/* <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium hover:border-b-2 hover:border-orange-500 ease-out duration-700">
-                Packages
-              </Link> */}
-              <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
-                Packages
-              </Link>
-            </li>
-            <li>
-              <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
-                Destination
-              </Link>
-            </li>
-            <li>
-              <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
-                Contact
-              </Link>
-            </li>
+            {Links.map((link) => (
+              <li key={link.title}>
+                <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
+                  {link.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-        <PrimaryButton>Book Now <Send /></PrimaryButton>
+        <PrimaryButton>
+          Book Now <Send />
+        </PrimaryButton>
       </nav>
     </>
   );
