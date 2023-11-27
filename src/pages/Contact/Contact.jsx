@@ -1,7 +1,13 @@
 import React from "react";
-import PrimaryButton from "../../components/Button/PrimaryButton";
+import Select from "../../components/Form/Select";
+import Option from "../../components/Form/Option";
 
 const Contact = () => {
+  const options = [
+    { value: "help", label: "Need tour expert team?" },
+    { value: "ag", label: "Expore With AG" },
+    { value: "myself", label: "Explore Myself" },
+  ];
   return (
     <>
       <div className="w-full h-auto py-16 px-20 flex justify-between gap-8">
@@ -120,14 +126,7 @@ const Contact = () => {
               />
             </div>
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
-              <select
-                id="countries"
-                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
-              >
-                <option selected>Need tour expert team?</option>
-                <option value="ag">Expore With AG</option>
-                <option value="myself">Explore Myself</option>
-              </select>
+              <Select options={options} />
             </div>
           </div>
           <div className="w-full h-[130px] bg-gray-300 border-none rounded-md overflow-hidden mb-10">

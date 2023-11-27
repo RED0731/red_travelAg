@@ -16,3 +16,11 @@ const Select = ({ options, ...rest }) => {
 };
 
 export default Select;
+
+// function Option({ children, ...rest }) {
+//     return (
+//       <option {...rest}>{children}</option>
+//     );
+//   }
+  
+//   export default Option;
