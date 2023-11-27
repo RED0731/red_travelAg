@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryButton from "../../components/Button/PrimaryButton";
+import Tag from "../../components/Tag/Tag";
 // import Viewmore from "../../components/Viewmore/Viewmore";
 
 const Offer = () => {
@@ -63,14 +64,7 @@ const Offer = () => {
   return (
     <>
       <div className="w-full h-auto py-16 px-20">
-        <div className="text-center mb-10">
-          <div className="satisfy-font text-2xl font-medium text-orange-500 text-center">
-            Our Recommendation
-          </div>
-          <h1 className="text-[2.5rem] text-gray-900 text-center font-black">
-            Best Offers
-          </h1>
-        </div>
+        <Tag tagSlog="Our Recommendation" tagTitle="Best Offers" />
         <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
           {Offers.map((offer) => (
             <div
