@@ -3,6 +3,36 @@ import { Link } from "react-router-dom";
 import PrimaryButton from "../../components/Button/PrimaryButton";
 
 const Offer = () => {
+  const Offers = [
+    {
+      id: 1,
+      img: "https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg",
+      title: "Hot Air Ballon, Nepal",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$100",
+    },
+    {
+      id: 2,
+      img: "https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg",
+      title: "Title Section",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$180.00",
+    },
+    {
+      id: 3,
+      img: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      title: "Title Section",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$150.00",
+    },
+    {
+      id: 4,
+      img: "https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg",
+      title: "Title Section",
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid ipsa officia doloremque dolore asperiores quos similique laboriosam ut id! Quisquam.",
+      price: "$150.00",
+    },
+  ];
   return (
     <>
       <div className="w-full h-auto py-16 px-20">
@@ -15,132 +45,30 @@ const Offer = () => {
           </h1>
         </div>
         <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-2xl text-gray-900 font-bold mb-4 block">
-                Hot Air Ballon, Nepal
-              </Link>
-              <p className="text-base text-gray-500 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
+          {Offers.map((offer) => (
+            <div
+              key={offer.id}
+              className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden"
+            >
+              <img
+                src={offer.img}
+                alt=""
+                className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
+              />
+              <div className="px-5 py-8">
+                <Link className="text-2xl text-gray-900 font-bold mb-4 block">
+                  {offer.title}
+                </Link>
+                <p className="text-base text-gray-500 font-normal mb-8">
+                  {offer.description}
+                </p>
+                <div className="w-full h-auto flex items-center justify-between">
+                  <PrimaryButton>Book Now</PrimaryButton>
+                  <h6 className="text-xl text-orange-600 font-bold">{offer.price}</h6>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-xl text-gray-900 font-semibold mb-4 block">
-                Title Section
-              </Link>
-              <p className="text-base text-gray-400 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
-              </div>
-            </div>
-          </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-xl text-gray-900 font-semibold mb-4 block">
-                Title Section
-              </Link>
-              <p className="text-base text-gray-400 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
-              </div>
-            </div>
-          </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2021/04/07/02/38/waterfall-6157891_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-xl text-gray-900 font-semibold mb-4 block">
-                Title Section
-              </Link>
-              <p className="text-base text-gray-400 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
-              </div>
-            </div>
-          </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-2xl text-gray-900 font-bold mb-4 block">
-                Hot Air Ballon, Nepal
-              </Link>
-              <p className="text-base text-gray-500 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
-              </div>
-            </div>
-          </div>
-          <div className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/07/19/04/19/trees-4347932_640.jpg"
-              alt=""
-              className="w-full h-[38vh] object-cover object-center rounded-2xl brightness-75"
-            />
-            <div className="px-5 py-8">
-              <Link className="text-xl text-gray-900 font-semibold mb-4 block">
-                Title Section
-              </Link>
-              <p className="text-base text-gray-400 font-normal mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid ipsa officia doloremque dolore asperiores quos similique
-                laboriosam ut id! Quisquam.
-              </p>
-              <div className="w-full h-auto flex items-center justify-between">
-                <PrimaryButton>Book Now</PrimaryButton>
-                <h6 className="text-xl text-orange-600 font-bold">$180.00</h6>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
         {/* <div className="w-full h-auto flex items-center justify-center mb-6">
           <SecondaryButton>
@@ -150,7 +78,7 @@ const Offer = () => {
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-arrow-right"
+              className="bi bi-arrow-right"
               viewBox="0 0 16 16"
             >
               <path
