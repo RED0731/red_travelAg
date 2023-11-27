@@ -1,6 +1,6 @@
 import React from "react";
 import Select from "../../components/Form/Select";
-import Option from "../../components/Form/Option";
+import InputForm from "../../components/Form/InputForm";
 
 const Contact = () => {
   const options = [
@@ -97,32 +97,29 @@ const Contact = () => {
           </h1>
           <div className="w-full h-auto flex items-center gap-8 mb-10">
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
-              <input
-                type="text"
-                id="fullname"
-                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
-                placeholder="Full Name"
-                required
+              <InputForm
+                type={"text"}
+                id={"fullname"}
+                placeholder={"Full Name"}
+                required={true}
               />
             </div>
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
-              <input
-                type="email"
-                id="email"
-                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
-                placeholder="Email Id"
-                required
+              <InputForm
+                type={"email"}
+                id={"email"}
+                placeholder={"Email Id"}
+                required={true}
               />
             </div>
           </div>
           <div className="w-full h-auto flex items-center gap-x-8 mb-10">
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
-              <input
-                type="number"
-                id="phone"
-                className="bg-gray-200 border-2 text-gray-950 rounded-md text-base w-full h-full p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
-                placeholder="Phone nbr."
-                required
+              <InputForm
+                type={"number"}
+                id={"phone"}
+                placeholder={"Phone nbr."}
+                required={true}
               />
             </div>
             <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
