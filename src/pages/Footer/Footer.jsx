@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  // Top Destination
   const Destination = [
     {
       title: "Annapurna Base Camp (ABC), Nepal",
@@ -22,6 +23,7 @@ const Footer = () => {
       title: "Mt. Everent Camp Nepal",
     },
   ];
+  // Support
   const SupportLinks = [
     {
       link: "Need Help?",
@@ -39,6 +41,7 @@ const Footer = () => {
       link: "FAQs",
     },
   ];
+  // Featured Tours
   const FeaturedTours = [
     {
       imgUrl:
@@ -53,6 +56,7 @@ const Footer = () => {
       price: "$115.23",
     },
   ];
+  //
   return (
     <>
       <div className="w-full h-auto py-16 px-20 bg-gray-200/30 flex items-start gap-5 flex-wrap">
