@@ -2,6 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const TopDestination = [
+    {
+      title: "Annapurna Base Camp (ABC), Nepal",
+    },
+    {
+      title: "Paris",
+    },
+    {
+      title: "London",
+    },
+    {
+      title: "Rome",
+    },
+    {
+      title: "New York",
+    },
+  ];
+  const Links = [
+    {
+      link: "",
+    }
+  ]
   return (
     <>
       <div className="w-full h-auto py-16 px-20 bg-gray-200/30 flex items-start gap-5 flex-wrap">
@@ -216,7 +238,12 @@ const Footer = () => {
               <h6 className="text-[1.1rem] text-gray-900 font-semibold hover:underline cursor-pointer ease-out duration-700 mb-0.5">
                 Exclusive Paris city tour
               </h6>
-              <p className="text-[0.95rem] font-normal text-gray-500">Starts from <span className="text-orange-600 text-base font-semibold">$115.23</span></p>
+              <p className="text-[0.95rem] font-normal text-gray-500">
+                Starts from{" "}
+                <span className="text-orange-600 text-base font-semibold">
+                  $115.23
+                </span>
+              </p>
             </div>
           </div>
           <div className="w-full h-auto flex items-center gap-x-2.5 mb-4">
@@ -229,7 +256,12 @@ const Footer = () => {
               <h6 className="text-[1.1rem] text-gray-900 font-semibold hover:underline cursor-pointer ease-out duration-700 mb-0.5">
                 Exclusive Paris city tour
               </h6>
-              <p className="text-[0.95rem] font-normal text-gray-500">Starts from <span className="text-orange-600 text-base font-semibold">$115.23</span></p>
+              <p className="text-[0.95rem] font-normal text-gray-500">
+                Starts from{" "}
+                <span className="text-orange-600 text-base font-semibold">
+                  $115.23
+                </span>
+              </p>
             </div>
           </div>
         </div>
