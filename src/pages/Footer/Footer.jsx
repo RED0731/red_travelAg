@@ -2,28 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const TopDestination = [
+  const Destination = [
     {
       title: "Annapurna Base Camp (ABC), Nepal",
     },
     {
-      title: "Paris",
+      title: "Pashupatinath Temple, KTM Nepal",
     },
     {
-      title: "London",
+      title: "Lumbini, Kapilvastu, Nepal",
     },
     {
-      title: "Rome",
+      title: "Sworgadwari Temple, Pyuthan Nepal",
     },
     {
-      title: "New York",
+      title: "Chitwan National Park, Nepal",
+    },
+    {
+      title: "Mt. Everent Camp Nepal",
     },
   ];
-  const Links = [
+  const SupportLinks = [
     {
       link: "",
-    }
-  ]
+    },
+  ];
   return (
     <>
       <div className="w-full h-auto py-16 px-20 bg-gray-200/30 flex items-start gap-5 flex-wrap">
@@ -152,42 +155,17 @@ const Footer = () => {
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Top Destination
           </h1>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Annapurna Base Camp (ABC), Nepal
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Pashupatinath Temple, KTM Nepal
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Lumbini, Kapilvastu, Nepal
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Sworgadwari Temple, Pyuthan Nepal
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Chitwan National Park, Nepal
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Mt. Everent Camp Nepal
-            </h6>
-          </div>
+          {Destination.map((item, index) => (
+            <div
+              key={index}
+              className="w-full h-auto flex items-center gap-x-1.5 mb-2"
+            >
+              <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
+              <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+                {item.title}
+              </h6>
+            </div>
+          ))}
         </div>
         <div className="w-[15%] h-auto">
           <h1 className="text-2xl text-gray-950 font-black mb-5">
