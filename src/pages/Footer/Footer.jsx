@@ -24,7 +24,33 @@ const Footer = () => {
   ];
   const SupportLinks = [
     {
-      link: "",
+      link: "Need Help?",
+    },
+    {
+      link: "Our Agency's Service",
+    },
+    {
+      link: "Privacy Policy",
+    },
+    {
+      link: "Terms & Conditions",
+    },
+    {
+      link: "FAQs",
+    },
+  ];
+  const FeaturedTours = [
+    {
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2021/08/04/14/16/tower-6521842_640.jpg",
+      title: "Exclusive Paris city tour",
+      price: "$115.23",
+    },
+    {
+      imgUrl:
+        "https://cdn.pixabay.com/photo/2021/08/04/14/16/tower-6521842_640.jpg",
+      title: "Exclusive Paris city tour",
+      price: "$115.23",
     },
   ];
   return (
@@ -171,77 +197,45 @@ const Footer = () => {
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Support Links
           </h1>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Need Help?
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Our Agency's Service
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Privacy Policy
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              Terms & Conditions
-            </h6>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-1.5 mb-2">
-            <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
-            <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
-              FAQs
-            </h6>
-          </div>
+          {SupportLinks.map((item, index) => (
+            <div
+              key={index}
+              className="w-full h-auto flex items-center gap-x-1.5 mb-2"
+            >
+              <div className="w-[7px] h-[7px] rounded-full bg-gray-500"></div>
+              <h6 className="text-base text-gray-900 font-normal hover:underline cursor-pointer ease-out duration-700">
+                {item.link}
+              </h6>
+            </div>
+          ))}
         </div>
         <div className="w-[25%] h-auto">
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Featured Tours
           </h1>
-          <div className="w-full h-auto flex items-center gap-x-2.5 mb-4">
-            <img
-              src="https://cdn.pixabay.com/photo/2021/08/04/14/16/tower-6521842_640.jpg"
-              alt=""
-              className="w-[80px] h-[70px] object-cover object-position rounded-md"
-            />
-            <div className="flex items-start flex-col">
-              <h6 className="text-[1.1rem] text-gray-900 font-semibold hover:underline cursor-pointer ease-out duration-700 mb-0.5">
-                Exclusive Paris city tour
-              </h6>
-              <p className="text-[0.95rem] font-normal text-gray-500">
-                Starts from{" "}
-                <span className="text-orange-600 text-base font-semibold">
-                  $115.23
-                </span>
-              </p>
+          {FeaturedTours.map((item, index) => (
+            <div
+              key={index}
+              className="w-full h-auto flex items-center gap-x-2.5 mb-4"
+            >
+              <img
+                src={item.imgUrl}
+                alt=""
+                className="w-[80px] h-[70px] object-cover object-position rounded-md"
+              />
+              <div className="flex items-start flex-col">
+                <h6 className="text-[1.1rem] text-gray-900 font-semibold hover:underline cursor-pointer ease-out duration-700 mb-0.5">
+                  {item.title}
+                </h6>
+                <p className="text-[0.95rem] font-normal text-gray-500">
+                  Starts from{" "}
+                  <span className="text-orange-600 text-base font-semibold">
+                    {item.price}
+                  </span>
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="w-full h-auto flex items-center gap-x-2.5 mb-4">
-            <img
-              src="https://cdn.pixabay.com/photo/2020/02/20/13/25/city-4864747_640.jpg"
-              alt=""
-              className="w-[80px] h-[70px] object-cover object-position rounded-md"
-            />
-            <div className="flex items-start flex-col">
-              <h6 className="text-[1.1rem] text-gray-900 font-semibold hover:underline cursor-pointer ease-out duration-700 mb-0.5">
-                Exclusive Paris city tour
-              </h6>
-              <p className="text-[0.95rem] font-normal text-gray-500">
-                Starts from{" "}
-                <span className="text-orange-600 text-base font-semibold">
-                  $115.23
-                </span>
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </>
