@@ -40,6 +40,12 @@ const Header = () => {
           Book Now <Send />
         </PrimaryButton>
       </nav>
+      {/* For Small Devices */}
+      {/* <div className="w-full h-auto bottom-6 fixed z-10 flex items-center justify-center">
+        <nav className="w-[75%] h-auto bg-gray-100 shadow-md border-2 border-200  py-4 px-20 flex items-center justify-between z-10 rounded-full">
+          This is Nav Section for small devices.
+        </nav>
+      </div> */}
     </>
   );
 };
