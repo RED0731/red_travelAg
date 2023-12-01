@@ -122,16 +122,16 @@ const Packages = () => {
   // }
   return (
     <>
-      <div className="w-full h-auto py-16 px-20">
+      <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4">
         <Tag
           tagTitle="Explore Travel Packages"
           tagSlog="Most Popular Package"
         />
-        <div className="w-full h-auto flex items-center justify-center mb-10 gap-5">
+        <div className="w-full h-auto flex items-center justify-center lg:flex-nowrap md:flex-wrap sm:flex-wrap flex-wrap mb-10 lg:gap-5 md:gap-6 sm:gap-7 gap-7">
           {Package.map((packag) => (
             <div
               key={packag._id}
-              className="w-[25%] h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden hover:-translate-y-5 ease-out duration-700"
+              className="lg:w-[25%] md:w-[45%] sm:w-full w-full h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden hover:-translate-y-5 ease-out duration-700"
             >
               <div className="w-full h-auto relative mb-6">
                 <div className="w-full h-[30vh] overflow-hidden">
