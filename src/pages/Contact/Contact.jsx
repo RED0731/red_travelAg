@@ -10,8 +10,8 @@ const Contact = () => {
   ];
   return (
     <>
-      <div className="w-full h-auto py-16 px-20 flex justify-between gap-8">
-        <div className="w-[33%] h-auto bg-orange-500 py-8 px-12 rounded-xl flex items-start justify-center flex-col">
+      <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4 flex justify-between gap-8 flex-wrap">
+        <div className="lg:w-[33%] md:w-[50%] sm:w-full w-full h-auto bg-orange-500 lg:py-8 md:py-9 sm:py-12 py-12 px-12 rounded-xl flex items-start justify-center flex-col">
           <p className="text-[0.9rem] text-gray-200 font-normal tracking-wider uppercase mb-3.5">
             Let's talk
           </p>
@@ -88,15 +88,15 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-[60%] h-auto bg-indigo-00 rounded-xl p-4">
+        <div className="lg:w-[60%] md:w-[50%] sm:w-full w-full h-auto p-4">
           <p className="text-gray-900 text-[0.9rem] font-normal tracking-wider uppercase mb-3.5">
             Get in touch
           </p>
           <h1 className="text-4xl text-gray-950 font-black tracking-wide capitalize mb-10">
             Fill your information
           </h1>
-          <div className="w-full h-auto flex items-center gap-8 mb-10">
-            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+          <div className="w-full h-auto flex items-center lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap gap-8 mb-10">
+            <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <InputForm
                 type={"text"}
                 id={"fullname"}
@@ -104,7 +104,7 @@ const Contact = () => {
                 required={true}
               />
             </div>
-            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+            <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <InputForm
                 type={"email"}
                 id={"email"}
@@ -113,8 +113,8 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="w-full h-auto flex items-center gap-x-8 mb-10">
-            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+          <div className="w-full h-auto flex items-center lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap gap-8 mb-10">
+            <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <InputForm
                 type={"number"}
                 id={"phone"}
@@ -122,7 +122,7 @@ const Contact = () => {
                 required={true}
               />
             </div>
-            <div className="w-1/2 h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
+            <div className="lg:w-1/2 md:w-1/2 sm:w-full w-full h-[60px] bg-gray-300 border-none rounded-md overflow-hidden">
               <Select options={options} />
             </div>
           </div>
