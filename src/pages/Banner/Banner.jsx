@@ -6,12 +6,12 @@ const Banner = () => {
     <>
       <div className="w-full h-auto">
         <div className="py-20"></div>
-        <div className="w-full h-auto bg-gray-950 pt-16 pb-2 px-20 relative">
+        <div className="w-full h-auto bg-gray-950 pt-16 pb-2 lg:px-20 md:px-16 sm:px-8 px-8 relative">
           <div className="w-full h-auto -mt-60 p-2 bg-white rounded-2xl shadow-md shadow-gray-800 relative">
             <img
               src="https://cdn.pixabay.com/photo/2021/08/14/04/15/mountains-6544522_1280.jpg"
               alt=""
-              className="w-full h-[60vh] object-cover object-center rounded-lg brightness-50"
+              className="w-full lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[30vh] object-cover object-center rounded-lg brightness-50"
             />
             <Link
               to="#view-our-story"
