@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <>
       <div className="w-full lg:h-screen md:h-auto sm:h-auto h-auto flex items-center justify-center lg:px-20 md:px-16 sm:px-8 px-4 gap-8">
-        <div className="w-full h-full flex items-center justify-between lg:mt-10 md:mt-12 sm:mt-14 mt-14 flex-wrap gap-x-8 gap-y-10">
+        <div className="w-full h-full flex items-center justify-between lg:mt-10 md:mt-12 sm:mt-28 mt-28 flex-wrap gap-x-8 gap-y-10">
           <div className="lg:w-1/2 md:w-full sm:w-full w-full h-auto">
             <div className="text-orange-600 text-[1.5rem] satisfy-font flex items-center gap-3">
               Pack your luggage!{" "}
