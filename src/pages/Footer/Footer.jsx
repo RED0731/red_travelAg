@@ -59,8 +59,8 @@ const Footer = () => {
   //
   return (
     <>
-      <div className="w-full h-auto py-16 px-20 bg-gray-200/30 flex items-start gap-5 flex-wrap">
-        <div className="w-[30%] h-auto">
+      <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4 bg-gray-200/30 flex items-start gap-x-5 gap-y-8 flex-wrap">
+        <div className="lg:w-[30%] md:w-[75%] sm:w-full w-full h-auto">
           <div className="mb-3">
             <Link
               to="/"
@@ -181,7 +181,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="w-[25%] h-auto">
+        <div className="lg:w-[25%] md:w-[25%] sm:w-full w-full h-auto">
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Top Destination
           </h1>
@@ -197,7 +197,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="w-[15%] h-auto">
+        <div className="lg:w-[15%] md:w-[30%] sm:w-full w-full h-auto">
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Support Links
           </h1>
@@ -213,7 +213,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="w-[25%] h-auto">
+        <div className="lg:w-[25%] md:w-[70%] sm:w-full w-full h-auto">
           <h1 className="text-2xl text-gray-950 font-black mb-5">
             Featured Tours
           </h1>
