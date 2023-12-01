@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PrimaryButton from "../../components/Button/PrimaryButton";
 import Tag from "../../components/Tag/Tag";
-// import Viewmore from "../../components/Viewmore/Viewmore";
+import Viewmore from "../../components/Viewmore/Viewmore";
 
 const Offer = () => {
   const Offers = [
@@ -63,13 +63,13 @@ const Offer = () => {
   ];
   return (
     <>
-      <div className="w-full h-auto py-16 px-20">
+      <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4">
         <Tag tagSlog="Our Recommendation" tagTitle="Best Offers" />
-        <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
+        <div className="w-full h-auto flex items-center justify-between gap-x-6 gap-y-8 flex-wrap">
           {Offers.map((offer) => (
             <div
               key={offer.id}
-              className="w-[32%] h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden"
+              className="lg:w-[32%] md:w-[48%] sm:w-full w-full h-auto bg-white rounded-2xl shadow border-b-4 border-gray-300 hover:border-b-4 hover:border-orange-500 ease-out duration-700 overflow-hidden"
             >
               <img
                 src={offer.imgUrl}
