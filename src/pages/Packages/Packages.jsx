@@ -128,9 +128,9 @@ const Packages = () => {
           tagSlog="Most Popular Package"
         />
         <div className="w-full h-auto flex items-center justify-center mb-10 gap-5">
-          {Package.map((packag) => (
+          {Package.map((packag, index) => (
             <div
-              key={packag._id}
+              key={index}
               className="w-[25%] h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden hover:-translate-y-5 ease-out duration-700"
             >
               <div className="w-full h-auto relative mb-6">
@@ -194,8 +194,8 @@ const Packages = () => {
                 </div>
                 <div className="w-full h-[1px] bg-gray-300 my-5"></div>
                 <div className="w-full h-auto flex items-center gap-3 mb-3">
-                  {packag.tourCategory.map((category) => (
-                    <div className="bg-purple-400/30 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">
+                  {packag.tourCategory.map((category, index) => (
+                    <div key={index} className="bg-purple-400/30 text-gray-900 py-0.5 px-2 text-[0.75rem] rounded-full">
                       {category.catName}
                     </div>
                   ))}
