@@ -35,9 +35,9 @@ const Home = () => {
   };
   return (
     <>
-      <div className="w-full h-screen flex items-center justify-center px-20 gap-8">
-        <div className="w-full h-full flex items-center justify-between mt-10">
-          <div className="w-1/2 h-auto">
+      <div className="w-full lg:h-screen md:h-auto sm:h-auto h-auto flex items-center justify-center lg:px-20 md:px-16 sm:px-8 px-4 gap-8">
+        <div className="w-full h-full flex items-center justify-between lg:mt-10 md:mt-12 sm:mt-14 mt-14 flex-wrap">
+          <div className="lg:w-1/2 md:w-full sm:w-full w-full h-auto">
             <div className="text-orange-600 text-[1.5rem] satisfy-font flex items-center gap-3">
               Pack your luggage!{" "}
               <svg
@@ -52,10 +52,10 @@ const Home = () => {
                 <path d="M3 7.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0v-5ZM11 6a1.5 1.5 0 0 1 1.5 1.5V8h2A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 14.5v-5A1.5 1.5 0 0 1 6.5 8h2v-.5A1.5 1.5 0 0 1 10 6h1ZM9.5 7.5V8h2v-.5A.5.5 0 0 0 11 7h-1a.5.5 0 0 0-.5.5ZM6 9.5v5a.5.5 0 0 0 .5.5H7V9h-.5a.5.5 0 0 0-.5.5Zm7 5.5V9H8v6h5Zm1.5 0a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5H14v6h.5Z" />
               </svg>
             </div>
-            <h1 className="text-gray-900 text-6xl leading-[5rem] font-black">
+            <h1 className="text-gray-900 lg:text-6xl md:text-6xl sm:text-5xl text-4xl lg:leading-[5rem] md:leading-[5rem] sm:leading-[4rem] leading-[4rem] font-black">
               Discover your next <br />
               <span
-                className="text-9xl my-3 text-orange-500"
+                className="lg:text-9xl md:text-8xl sm:text-7xl text-7xl my-3 text-orange-500"
                 ref={travel_slogan}
               />{" "}
               <br />
