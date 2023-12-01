@@ -64,7 +64,7 @@ const Home = () => {
             <p className="text-gray-500 text-xl font-normal mb-7">
               Embrace the journey; Travel with passion and purpose.
             </p>
-            <div className="w-full h-auto bg-[#ffffff] border border-gray-300 shadow-md flex items-center gap-1 p-6 rounded-md">
+            <div className="w-full h-auto bg-[#ffffff] border border-gray-300 shadow-md flex items-center lg:flex-nowrap md:flex-nowrap sm:flex-wrap flex-wrap gap-1 p-6 rounded-md">
               <input
                 type="text"
                 name="price"
@@ -72,7 +72,7 @@ const Home = () => {
                 className="w-full rounded border-2 border-gray-300 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:border-2 focus:border-orange-600 sm:text-sm sm:leading-6"
                 placeholder="Where to go?"
               />
-              <div className="w-full border-0 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:border-2 focus:border-orange-600 sm:text-sm sm:leading-6 rounded">
+              <div className="w-full border-0 lg:py-2 md:py-2 sm:py-4 py-4 lg:px-3 md:px-3 sm:px-0 px-0 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:border-2 focus:border-orange-600 sm:text-sm sm:leading-6 rounded">
                 <Datepicker
                   inputClassName="w-full cursor-pointer border-2 border-gray-300 py-2 px-3 outline-none text-base font-medium text-gray-700 placeholder:text-gray-500 placeholder:text-base focus:border-2 focus:border-orange-600 sm:text-sm sm:leading-6 rounded"
                   primaryColor={"orange"}
@@ -84,7 +84,7 @@ const Home = () => {
                 />
               </div>
               <PrimaryButton>
-                Search <Search></Search>{" "}
+                Search <Search></Search>
               </PrimaryButton>
             </div>
           </div>
