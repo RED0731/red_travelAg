@@ -50,9 +50,9 @@ const Category = () => {
   //
   return (
     <>
-      <div className="w-full h-auto flex items-center justify-center flex-col py-16 px-20">
+      <div className="w-full h-auto flex items-center justify-center flex-col py-16 lg:px-20 md:px-16 sm:px-8 px-4">
         <Tag tagSlog="Browse by Category" tagTitle="Select your Type" />
-        <div className="w-full h-auto flex items-center justify-center gap-12">
+        <div className="w-full h-auto flex items-center justify-center lg:gap-12 md:gap-10 sm:gap-6 gap-6 flex-wrap">
           {Category.map((category) => (
             <div
               key={category.id}
