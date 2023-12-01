@@ -128,9 +128,9 @@ const Packages = () => {
           tagSlog="Most Popular Package"
         />
         <div className="w-full h-auto flex items-center justify-center mb-10 gap-5">
-          {Package.map((packag, index) => (
+          {Package.map((packag) => (
             <div
-              key={index}
+              key={packag._id}
               className="w-[25%] h-auto bg-white border border-gray-300 shadow-md rounded-lg overflow-hidden hover:-translate-y-5 ease-out duration-700"
             >
               <div className="w-full h-auto relative mb-6">

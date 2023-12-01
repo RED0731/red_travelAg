@@ -80,6 +80,7 @@ const Home = () => {
                   separator={" — "}
                   useRange={true}
                   value={value}
+                  darkMode={false}
                   onChange={handleValueChange}
                 />
               </div>
