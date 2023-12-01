@@ -14,11 +14,11 @@ const About = () => {
           />
         </div>
         <div className="lg:w-[45%] md:w-full sm:w-full w-full h-auto">
-          <div className="text-start mb-4">
-            <div className="satisfy-font text-2xl font-medium text-orange-500 text-start">
+          <div className="lg:text-start md:text-center sm:text-center text-center flex items-center justify-center flex-col mb-4">
+            <div className="satisfy-font text-2xl font-medium text-orange-500 lg:text-start md:text-center sm:text-center text-center">
               Explore with us
             </div>
-            <h1 className="text-[2.5rem] text-gray-900 text-start font-black">
+            <h1 className="lg:text-[2.5rem] md:text-[2.2rem] sm:text-[2rem] text-[1.8rem] text-gray-900 lg:text-start md:text-center sm:text-center text-center font-black">
               Enjoy Your Travel
             </h1>
           </div>
@@ -29,7 +29,7 @@ const About = () => {
               handpicked accommodations, we take care of every detail, leaving
               you free to savor every moment and create unforgettable memories.
             </p>
-            <div className="flex items-start justify-start text-start gap-x-3 mb-3">
+            <div className="flex w-full items-start justify-start text-start gap-x-3 mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -40,7 +40,7 @@ const About = () => {
               >
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
               </svg>
-              <p className="text-gray-500 text-[1.1rem] font-normal">
+              <p className="text-gray-500 lg:text-[1.1rem] md:text-[1.05rem] sm:text-[1rem] text-[1rem] font-normal">
                 Dedicated 24/7 support team ready to assist you at any moment.
               </p>
             </div>
@@ -55,7 +55,7 @@ const About = () => {
               >
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
               </svg>
-              <p className="text-gray-500 text-[1.1rem] font-normal">
+              <p className="text-gray-500 lg:text-[1.1rem] md:text-[1.05rem] sm:text-[1rem] text-[1rem] font-normal">
                 Hand picked premium Accommodations that guarantee comfort and
                 relaxation.
               </p>
@@ -71,7 +71,7 @@ const About = () => {
               >
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
               </svg>
-              <p className="text-gray-500 text-[1.1rem] font-normal">
+              <p className="text-gray-500 lg:text-[1.1rem] md:text-[1.05rem] sm:text-[1rem] text-[1.05rem] font-normal">
                 Award winning tour & travel arranger
               </p>
             </div>
