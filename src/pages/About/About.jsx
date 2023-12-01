@@ -5,15 +5,15 @@ import PrimaryButton from "../../components/Button/PrimaryButton";
 const About = () => {
   return (
     <>
-      <div className="w-full h-auto py-10 lg:px-20 md:px-16 sm:px-8 px-4 bg-gray-200/30 flex items-center justify-between gap-8">
-        <div className="w-[45%] h-[75vh] flex">
+      <div className="w-full h-auto py-10 lg:px-20 md:px-16 sm:px-8 px-4 bg-gray-200/30 flex items-center justify-between gap-8 flex-wrap">
+        <div className="lg:w-[45%] md:w-full sm:w-full w-full h-[75vh] flex">
           <img
             src={AboutImg}
             alt="About Img"
             className="w-full h-full object-fill drop-shadow-md object-center"
           />
         </div>
-        <div className="w-[45%] h-auto">
+        <div className="lg:w-[45%] md:w-full sm:w-full w-full h-auto">
           <div className="text-start mb-4">
             <div className="satisfy-font text-2xl font-medium text-orange-500 text-start">
               Explore with us
