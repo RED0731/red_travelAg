@@ -63,13 +63,13 @@ const Blog = () => {
   ];
   return (
     <>
-      <div className="w-full h-auto py-16 px-20">
+      <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4">
         <Tag tagSlog="Latest Blogs" tagTitle="News & Blogs" />
         <div className="w-full h-auto flex items-center justify-between mb-10 gap-x-6 gap-y-8 flex-wrap">
           {BlogData.map((item) => (
             <div
               key={item.id}
-              className="w-[32%] h-auto bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-xl ease-out duration-700 cursor-pointer"
+              className="lg:w-[32%] md:w-[48%] sm:w-full w-full h-auto bg-white rounded-xl border border-gray-200 overflow-hidden shadow-md hover:shadow-xl ease-out duration-700 cursor-pointer"
             >
               <img
                 src={item.imgUrl}
