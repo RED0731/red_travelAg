@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <>
       <div className="w-full lg:h-screen md:h-auto sm:h-auto h-auto flex items-center justify-center lg:px-20 md:px-16 sm:px-8 px-4 gap-8">
-        <div className="w-full h-full flex items-center justify-between lg:mt-10 md:mt-12 sm:mt-14 mt-14 flex-wrap">
+        <div className="w-full h-full flex items-center justify-between lg:mt-10 md:mt-12 sm:mt-14 mt-14 flex-wrap gap-x-8 gap-y-10">
           <div className="lg:w-1/2 md:w-full sm:w-full w-full h-auto">
             <div className="text-orange-600 text-[1.5rem] satisfy-font flex items-center gap-3">
               Pack your luggage!{" "}
@@ -88,7 +88,7 @@ const Home = () => {
               </PrimaryButton>
             </div>
           </div>
-          <div className="w-[45%] h-[75vh]">
+          <div className="lg:w-[45%] md:w-full sm:w-full w-full lg:h-[75vh] md:h-[70vh] sm:h-[60vh] h-[50vh]">
             <img
               src={HeroImg}
               alt="Hero Travel Img"
