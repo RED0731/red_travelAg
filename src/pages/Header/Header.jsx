@@ -37,8 +37,7 @@ const Header = () => {
           </ul>
         </div>
         <PrimaryButton>
-          Book Now 
-          {/* <Send /> */}
+          Book Now <Send />
         </PrimaryButton>
       </nav>
       {/* For Small Devices */}
