@@ -5,7 +5,8 @@ import InputForm from "../../components/Form/InputForm";
 const Contact = () => {
   const options = [
     { value: "help", label: "Need tour expert team?" },
-    { value: "ag", label: "Expore With AG" },
+    // { value: "ag", label: "Expore With AG" },
+    { value: "ag", label: "Need AG's Guidlines & Teams" },
     { value: "myself", label: "Explore Myself" },
   ];
   return (
