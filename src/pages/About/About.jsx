@@ -1,9 +1,12 @@
 import React from "react";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 
 const About = () => {
   return (
     <>
-      <div className="w-full h-auto">This is the about another page</div>
+      <div className="w-full h-auto">
+        <Breadcrumb />
+      </div>
     </>
   );
 };
