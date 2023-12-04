@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import PrimaryButton from "../../components/Button/PrimaryButton";
+import PrimaryButton from "../../../components/Button/PrimaryButton";
 import { Send } from "react-bootstrap-icons";
 
 const Header = () => {

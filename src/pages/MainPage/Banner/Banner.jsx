@@ -14,7 +14,8 @@ const Banner = () => {
               className="w-full lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[30vh] object-cover object-center rounded-lg brightness-50"
             />
             <Link
-              to="#view-our-story"
+              to="https://www.youtube.com/@g-techofficial"
+              target="_blank"
               className="w-[70px] h-[70px] bg-orange-500 rounded-full absolute m-auto left-0 right-0 top-0 bottom-0"
             >
               <div className="w-full h-full flex items-center justify-center text-gray-100">
