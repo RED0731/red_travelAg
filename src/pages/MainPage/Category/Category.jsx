@@ -1,11 +1,11 @@
 import React from "react";
-import Beach from "../../assets/Category/beach.png";
-import Boat from "../../assets/Category/boat.png";
-import City from "../../assets/Category/city1.png";
-import Adventure from "../../assets/Category/adventure.png";
-import Hiking from "../../assets/Category/hiking.png";
-import Camping from "../../assets/Category/camping.png";
-import Tag from "../../components/Tag/Tag";
+import Beach from "../../../assets/Category/beach.png";
+import Boat from "../../../assets/Category/boat.png";
+import City from "../../../assets/Category/city1.png";
+import Adventure from "../../../assets/Category/adventure.png";
+import Hiking from "../../../assets/Category/hiking.png";
+import Camping from "../../../assets/Category/camping.png";
+import Tag from "../../../components/Tag/Tag";
 
 const Category = () => {
   // Category

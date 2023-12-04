@@ -1,14 +1,14 @@
 import React from "react";
-import Nepal from "../../assets/Packages/nepal.jpg";
-import NepalFlag from "../../assets/Packages/nepal.png";
-import Canada from "../../assets/Packages/canada.jpg";
-import CanadaFlag from "../../assets/Packages/canada.png";
-import Uk from "../../assets/Packages/uk.jpg";
-import UkFlag from "../../assets/Packages/uk.png";
-import India from "../../assets/Packages/india.jpg";
-import IndiaFlag from "../../assets/Packages/india.png";
-import Viewmore from "../../components/Viewmore/Viewmore";
-import Tag from "../../components/Tag/Tag";
+import Nepal from "../../../assets/Packages/nepal.jpg";
+import NepalFlag from "../../../assets/Packages/nepal.png";
+import Canada from "../../../assets/Packages/canada.jpg";
+import CanadaFlag from "../../../assets/Packages/canada.png";
+import Uk from "../../../assets/Packages/uk.jpg";
+import UkFlag from "../../../assets/Packages/uk.png";
+import India from "../../../assets/Packages/india.jpg";
+import IndiaFlag from "../../../assets/Packages/india.png";
+import Tag from "../../../components/Tag/Tag";
+import Viewmore from "../../../components/Viewmore/Viewmore";
 
 const Packages = () => {
   // Packages

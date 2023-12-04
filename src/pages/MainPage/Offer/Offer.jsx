@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PrimaryButton from "../../components/Button/PrimaryButton";
-import Tag from "../../components/Tag/Tag";
-// import Viewmore from "../../components/Viewmore/Viewmore";
+import PrimaryButton from "../../../components/Button/PrimaryButton";
+import Tag from "../../../components/Tag/Tag";
+// import Viewmore from "../../../components/Viewmore/Viewmore";
 
 const Offer = () => {
   const Offers = [

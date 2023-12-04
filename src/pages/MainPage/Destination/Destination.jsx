@@ -1,7 +1,7 @@
 import React from "react";
 import "./Destination.css";
-import Tag from "../../components/Tag/Tag";
-import Viewmore from "../../components/Viewmore/Viewmore";
+import Tag from "../../../components/Tag/Tag";
+import Viewmore from "../../../components/Viewmore/Viewmore";
 
 const Destination = () => {
   return (

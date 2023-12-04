@@ -1,6 +1,6 @@
 import React from "react";
-import AboutImg from "../../assets/About/about.png";
-import PrimaryButton from "../../components/Button/PrimaryButton";
+import AboutImg from "../../../assets/About/about.png";
+import PrimaryButton from "../../../components/Button/PrimaryButton";
 
 const About = () => {
   return (

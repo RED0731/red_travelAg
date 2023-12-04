@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Tag from "../../components/Tag/Tag";
-import Viewmore from "../../components/Viewmore/Viewmore";
+import Tag from "../../../components/Tag/Tag";
+import Viewmore from "../../../components/Viewmore/Viewmore";
 
 const Blog = () => {
   // Blog Data

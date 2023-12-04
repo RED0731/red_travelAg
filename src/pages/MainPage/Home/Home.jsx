@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import HeroImg from "../../assets/Hero/hero.png";
+import HeroImg from "../../../assets/Hero/hero.png";
 import Typed from "typed.js";
-import PrimaryButton from "../../components/Button/PrimaryButton";
+import PrimaryButton from "../../../components/Button/PrimaryButton";
 import { Search } from "react-bootstrap-icons";
 import Datepicker from "react-tailwindcss-datepicker";
 

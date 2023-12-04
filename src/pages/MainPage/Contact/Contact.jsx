@@ -1,6 +1,6 @@
 import React from "react";
-import Select from "../../components/Form/Select";
-import InputForm from "../../components/Form/InputForm";
+import Select from "../../../components/Form/Select";
+import InputForm from "../../../components/Form/InputForm";
 
 const Contact = () => {
   const options = [
