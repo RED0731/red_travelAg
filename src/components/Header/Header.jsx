@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import PrimaryButton from "../../../components/Button/PrimaryButton";
 import { Send } from "react-bootstrap-icons";
+import PrimaryButton from "../Button/PrimaryButton";
 
 const Header = () => {
   const Links = [
