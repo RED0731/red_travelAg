@@ -1,16 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Header from "./pages/Dashboard/Header/Header";
-import Home from "./pages/Dashboard/Home/Home";
-import About from "./pages/About/About";
-import Category from "./pages/Category/Category";
-import Destination from "./pages/Destination/Destination";
-import Packages from "./pages/Packages/Packages";
-import Banner from "./pages/Dashboard/Banner/Banner";
-import Contact from "./pages/Contact/Contact";
-import Offer from "./pages/Offer/Offer";
-import Blog from "./pages/Blog/Blog";
-import Footer from "./pages/Dashboard/Footer/Footer";
+import Header from "./pages/MainPage/Header/Header";
+import Home from "./pages/MainPage/Home/Home";
+// import About from "./pages/About/About";
+import About from "./pages/MainPage/About/About";
+import Category from "./pages/MainPage/Category/Category";
+import Destination from "./pages/MainPage/Destination/Destination";
+import Packages from "./pages/MainPage/Packages/Packages";
+import Banner from "./pages/MainPage/Banner/Banner";
+import Contact from "./pages/MainPage/Contact/Contact";
+import Offer from "./pages/MainPage/Offer/Offer";
+import Blog from "./pages/MainPage/Blog/Blog";
+import Footer from "./pages/MainPage/Footer/Footer";
 
 function App() {
   return (
