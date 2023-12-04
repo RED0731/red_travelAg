@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <div className="w-full h-[40vh] mb-14 mt-16">
-        <Breadcrumb />
+        <Breadcrumb title="About Us" breadcrumb="Home / About" />
       </div>
     </>
   );

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div className="w-full h-[40vh] mb-14 mt-16">
-        <Breadcrumb />
+        <Breadcrumb title="Contact" breadcrumb="Home / Contact" />
       </div>
     </>
   );
