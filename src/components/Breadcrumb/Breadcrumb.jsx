@@ -15,7 +15,7 @@ const Breadcrumb = () => {
         >
           <source src={TravelAg} />
         </video>
-        <div className="absolute top-0 left-0 bg-black/70 w-full h-full backdrop-blur-[1px]"></div>
+        <div className="absolute top-0 left-0 bg-black/60 w-full h-full backdrop-blur-[1px]"></div>
       </div>
       {/* <h1 className="text-2xl text-orange-500">Breadcrumb</h1>
         <p className="text-gray-500">
