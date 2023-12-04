@@ -7,8 +7,9 @@ const Header = () => {
   const Links = [
     { title: "Home", url: "/" },
     { title: "About", url: "/about" },
+    { title: "Tours", url: "/tours" },
     { title: "Packages", url: "/packages" },
-    { title: "Blog", url: "/blog" },
+    { title: "Blog", url: "/blogs" },
     { title: "Contact", url: "/contact" },
   ];
   return (
