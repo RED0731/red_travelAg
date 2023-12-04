@@ -1,7 +1,7 @@
 import React from "react";
 import TravelAg from "../../assets/Breadcrumb/travelag.mp4";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({title, breadcrumb}) => {
   return (
     <>
       <div className="relative w-full h-full border-2">
@@ -18,10 +18,9 @@ const Breadcrumb = () => {
         <div className="absolute top-0 left-0 bg-black/60 w-full h-full backdrop-blur-[1px]"></div>
       </div>
       <div className="absolute top-32 left-10 translate-y-[95%] z-10 lg:px-20 md:px-16 sm:px-8 px-4">
-        <h1 className="text-4xl text-orange-500 font-black mb-0.5">Packages</h1>
+        <h1 className="text-4xl text-orange-500 font-black mb-0.5">{title}</h1>
         <p className="text-gray-500">
-          {" "}
-          Breadcrumb grabs you to the current page
+          {breadcrumb}
         </p>
       </div>
     </>
