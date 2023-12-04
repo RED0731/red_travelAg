@@ -5,11 +5,11 @@ import PrimaryButton from "../Button/PrimaryButton";
 
 const Header = () => {
   const Links = [
-    { title: "Home", link: "/" },
-    { title: "About", link: "/about" },
-    { title: "Packages", link: "/packages" },
-    { title: "Blog", link: "/blog" },
-    { title: "Contact", link: "/contact" },
+    { title: "Home", url: "/" },
+    { title: "About", url: "/about" },
+    { title: "Packages", url: "/packages" },
+    { title: "Blog", url: "/blog" },
+    { title: "Contact", url: "/contact" },
   ];
   return (
     <>
@@ -27,9 +27,12 @@ const Header = () => {
             </Link>
           </div>
           <ul className="list-none flex items-center gap-6">
-            {Links.map((link) => (
-              <li key={link.title}>
-                <Link className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700">
+            {Links.map((link, index) => (
+              <li key={index}>
+                <Link
+                  to={link.url}
+                  className="text-[1.1rem] text-gray-700 hover:text-orange-500 font-medium ease-out duration-700"
+                >
                   {link.title}
                 </Link>
               </li>
