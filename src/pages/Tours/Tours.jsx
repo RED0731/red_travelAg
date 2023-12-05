@@ -198,6 +198,18 @@ const Tours = () => {
           </div>
         </div>
         <div className="w-full h-auto py-10 flex items-center gap-x-2">
+          {/* <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              className="text-gray-950"
+            >
+              <path d="M0 12l9-8v6h12v4h-12v6z" />
+            </svg>
+          </div> */}
           <div className="w-[40px] h-[40px] bg-orange-500 border border-orange-500 rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer">
             1
           </div>
@@ -209,6 +221,29 @@ const Tours = () => {
           </div>
           <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
             4
+          </div>
+          <div className="w-[40px] h-[40px] bg-white border border-gray-400/60 rounded-md flex items-center justify-center gap-x-1 text-base text-gray-950 font-semibold cursor-pointer">
+            <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
+            <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
+            <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
+          </div>
+          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+            10
+          </div>
+          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+            11
+          </div>
+          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              className="text-gray-950"
+            >
+              <path d="M24 12l-9-8v6h-12v4h12v6z" />
+            </svg>
           </div>
         </div>
       </div>
