@@ -12,7 +12,7 @@ const About = () => {
       <div className="w-full h-auto py-6 lg:px-20 md:px-16 sm:px-8 px-4">
         <AboutComp />
         <div className="w-full h-auto pt-14 pb-6">
-          <Tag tagSlog="Our Teams" tagTitle="News & Blogs" />
+          <Tag tagSlog="Our Teams" tagTitle="Meet Expert Teams" />
         </div>
       </div>
     </>
