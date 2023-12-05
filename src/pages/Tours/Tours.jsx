@@ -15,11 +15,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -38,11 +38,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -61,11 +61,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -84,11 +84,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -107,11 +107,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -130,11 +130,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -153,11 +153,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -176,11 +176,11 @@ const Tours = () => {
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
               src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="India"
+              alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">India</h1>
+              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
