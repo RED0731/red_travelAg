@@ -2,7 +2,6 @@ import React from "react";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import AboutComp from "../MainPage/About/About";
 import Tag from "../../components/Tag/Tag";
-import "./About.css";
 import Mission from "../../assets/About/mission.png";
 import Vision from "../../assets/About/vision.png";
 
@@ -51,7 +50,7 @@ const About = () => {
                 alt="team member"
                 className="w-full h-full object-cover object-center"
               />
-              <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+              <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                 <div className="w-full h-auto flex items-start flex-col">
                   <h1 className="text-3xl text-gray-200 font-black mb-1">
                     Gokarna Adhikari
@@ -70,7 +69,7 @@ const About = () => {
                     alt="image"
                     className="w-full h-full object-cover object-center cursor-pointer"
                   />
-                  <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                     <div className="w-full h-auto flex items-start flex-col">
                       <h1 className="text-3xl text-gray-200 font-black mb-1">
                         Gokarna Adhikari
@@ -87,7 +86,7 @@ const About = () => {
                     alt="image"
                     className="w-full h-full object-cover object-center cursor-pointer"
                   />
-                  <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                     <div className="w-full h-auto flex items-start flex-col">
                       <h1 className="text-3xl text-gray-200 font-black mb-1">
                         Gokarna Adhikari
@@ -104,7 +103,7 @@ const About = () => {
                     alt="image"
                     className="w-full h-full object-cover object-center cursor-pointer"
                   />
-                  <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                     <div className="w-full h-auto flex items-start flex-col">
                       <h1 className="text-3xl text-gray-200 font-black mb-1">
                         Gokarna Adhikari
@@ -123,7 +122,7 @@ const About = () => {
                     alt="image"
                     className="w-full h-full object-cover object-center cursor-pointer"
                   />
-                  <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                     <div className="w-full h-auto flex items-start flex-col">
                       <h1 className="text-3xl text-gray-200 font-black mb-1">
                         Taylor Swift & Selena Gomez
@@ -140,7 +139,7 @@ const About = () => {
                     alt="image"
                     className="w-full h-full object-cover object-center cursor-pointer"
                   />
-                  <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-full absolute bottom-0 left-0 linear_gradient_to_bottom flex items-end text-center px-6 py-8">
                     <div className="w-full h-auto flex items-start flex-col">
                       <h1 className="text-3xl text-gray-200 font-black mb-1">
                         Gokarna Adhikari
