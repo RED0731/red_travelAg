@@ -5,7 +5,7 @@ import PrimaryButton from "../../../components/Button/PrimaryButton";
 const About = () => {
   return (
     <>
-      <div className="w-full h-auto py-10 lg:px-20 md:px-16 sm:px-8 px-4 bg-gray-200/30 flex items-center justify-between gap-8 flex-wrap">
+      <div className="w-full h-auto py-10 lg:px-20 md:px-16 sm:px-8 px-4 bg-gray-200/30 flex items-center justify-between gap-8 flex-wrap rounded-md">
         <div className="lg:w-[45%] md:w-full sm:w-full w-full lg:h-[75vh] md:h-[70vh] sm:h-[60vh] h-[50vh] flex">
           <img
             src={AboutImg}

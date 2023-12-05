@@ -14,7 +14,7 @@ const Header = () => {
   ];
   return (
     <>
-      <nav className="w-full h-auto bg-gray-100 shadow-md py-4 px-20 fixed top-0 flex items-center justify-between z-10">
+      <nav className="w-full h-auto bg-gray-100 shadow-md py-4 px-20 fixed top-0 flex items-center justify-between z-50">
         <div className="flex items-center gap-x-16">
           <div className="">
             <Link
