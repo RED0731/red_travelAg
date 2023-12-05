@@ -14,7 +14,10 @@ export default {
       },
       animation: {
         wiggle: 'wiggle 1s cubic-bezier(0, 0, 0.2, 1) infinite',
-      }
+      },
+      background: {
+        linearGradientToBottom: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.80))',
+      },
     },
   },
   plugins: [],
