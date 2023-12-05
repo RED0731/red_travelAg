@@ -14,11 +14,11 @@ const About = () => {
         <div className="w-full h-auto pt-14 pb-6">
           <Tag tagSlog="Our Teams" tagTitle="Meet Expert Teams" />
           <div className="w-full h-auto flex items-center justify-between gap-7">
-            <div className="w-[25%] h-auto flex items-center flex-col gap-y-4">
+            <div className="w-[25%] h-auto flex items-center flex-col gap-y-4 rounded-3xl overflow-hidden">
               <img
-                src="https://cdn.pixabay.com/photo/2016/11/29/04/18/hot-air-balloons-1867279_640.jpg"
+                src="https://cdn.pixabay.com/photo/2019/03/24/22/05/man-4078827_1280.jpg"
                 alt="team member"
-                className="w-full h-[55vh] object-cover object-center"
+                className="w-full h-[75vh] object-cover object-center"
               />
             </div>
           </div>
