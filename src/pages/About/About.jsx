@@ -3,6 +3,8 @@ import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import AboutComp from "../MainPage/About/About";
 import Tag from "../../components/Tag/Tag";
 import "./About.css";
+import Mission from "../../assets/About/mission.png";
+import Vision from "../../assets/About/vision.png";
 
 const About = () => {
   return (
@@ -12,39 +14,29 @@ const About = () => {
       </div>
       <div className="w-full h-auto py-6 lg:px-20 md:px-16 sm:px-8 px-4">
         <AboutComp />
-        <div className="w-full h-auto bg-white rounded-md my-16 px-6 py-16 flex items-center justify-center gap-x-16 gap-y-7 shadow-md border-2 border-gray-200">
-          <div className="w-[43%] h-auto bg-indigo-500 rounded-xl px-6 py-8">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              className="text-gray-900"
-            >
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-1 6h-4V4h4v4zm-6.002 0H9.002V4H13v4zm-4.001 6h-4V9h4v4zm6.001 0h-4V9h4v4zm-4 6h-4v-4h4v4zm6 0h-4v-4h4v4z" />
-            </svg>
+        <div className="w-full h-auto bg-white rounded-md my-16 px-6 py-20 flex items-center justify-center gap-x-16 gap-y-7 shadow-md border-2 border-gray-200 flex-wrap">
+          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-indigo-500 rounded-xl px-6 py-8">
+            <div className="w-full h-auto flex items-center gap-x-2 mb-2">
+              <img
+                src={Mission}
+                className="w-[50px] h-[50px] object-contain object-center bg-gray-800 rounded-md p-0.5 shadow"
+                alt="mission icon"
+              />
+              <h1 className="text-xl text-gray-900 font-black">Our Mission</h1>
+            </div>
             Committed to excellence, we offer personalized experiences,
             meticulously planned options, and a professional team, exceeding
             expectations and creating unforgettable memories.
           </div>
-          <div className="w-[43%] h-auto bg-orange-500 rounded-xl px-6 py-8">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              width="60"
-              height="60"
-              className="text-gray-900"
-            >
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path d="M11 18h2v-2h-2v2zm4-10.44L12 3 7 7.56V17h10V7.56zm-2 9h-2v-2h2v2z" />
-            </svg>
-            {/* We aim to be a leading, innovative travel agency, setting high
-            standards for excellence and customer satisfaction. Our goal is to
-            be the preferred choice for expert travel guidance and outstanding
-            service. */}
+          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-violet-500 rounded-xl px-6 py-8">
+            <div className="w-full h-auto flex items-center gap-x-2 mb-2">
+              <img
+                src={Vision}
+                className="w-[50px] h-[50px] object-contain object-center bg-gray-800 rounded-md p-0.5 shadow"
+                alt="mission icon"
+              />
+              <h1 className="text-xl text-gray-900 font-black">Our Vision</h1>
+            </div>
             We aspire to lead as an innovative travel agency, setting high
             standards for excellence. Our goal is to be the preferred choice for
             expert guidance and outstanding service.
