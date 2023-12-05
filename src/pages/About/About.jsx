@@ -19,18 +19,71 @@ const About = () => {
               <img
                 src="https://cdn.pixabay.com/photo/2019/03/24/22/05/man-4078827_1280.jpg"
                 alt="team member"
-                className="w-full h-[75vh] object-cover object-center"
+                className="w-full h-[80vh] object-cover object-center"
               />
-              <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end px-6 py-8">
-                This is the section.
+              <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                <div className="w-full h-auto flex items-start flex-col">
+                  <h1 className="text-3xl text-gray-200 font-black mb-1">
+                    Gokarna Adhikari
+                  </h1>
+                  <p className="text-base text-orange-400 font-normal">
+                    CEO/Founder of TravelAg
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="w-[70%] h-[75vh] flex items-start gap-7">
-              <img
-                src="https://images.unsplash.com/photo-1593035013811-2db9b3c36980?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="image"
-                className="w-1/2 h-1/2 object-cover object-center rounded-3xl cursor-pointer"
-              />
+            <div className="w-[70%] h-[80vh] relative flex items-start justify-between gap-7">
+              <div className="w-[31%] h-[60%] relative rounded-3xl overflow-hidden cursor-pointer">
+                <img
+                  src="https://images.unsplash.com/photo-1626565244872-206f4c1f9e57?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="image"
+                  className="w-full h-full object-cover object-center rounded-3xl cursor-pointer"
+                />
+                <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-auto flex items-start flex-col">
+                    <h1 className="text-3xl text-gray-200 font-black mb-1">
+                      Gokarna Adhikari
+                    </h1>
+                    <p className="text-base text-orange-400 font-normal">
+                      CEO/Founder of TravelAg
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[31%] h-[60%] relative rounded-3xl overflow-hidden cursor-pointer">
+                <img
+                  src="https://images.unsplash.com/photo-1615136002804-166c5961414e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="image"
+                  className="w-full h-full object-cover object-center rounded-3xl cursor-pointer"
+                />
+                <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-auto flex items-start flex-col">
+                    <h1 className="text-3xl text-gray-200 font-black mb-1">
+                      Gokarna Adhikari
+                    </h1>
+                    <p className="text-base text-orange-400 font-normal">
+                      Manager/Organizer
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-[31%] h-[60%] relative rounded-3xl overflow-hidden cursor-pointer">
+                <img
+                  src="https://images.unsplash.com/photo-1587050265310-1a2d98ccce5f?q=80&w=1861&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="image"
+                  className="w-full h-full object-cover object-center rounded-3xl cursor-pointer"
+                />
+                <div className="w-full h-full absolute bottom-0 left-0 team_bg flex items-end text-center px-6 py-8">
+                  <div className="w-full h-auto flex items-start flex-col">
+                    <h1 className="text-3xl text-gray-200 font-black mb-1">
+                      Gokarna Adhikari
+                    </h1>
+                    <p className="text-base text-orange-400 font-normal">
+                      Expert video/photographer
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
