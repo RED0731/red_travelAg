@@ -14,8 +14,8 @@ const About = () => {
       </div>
       <div className="w-full h-auto py-6 lg:px-20 md:px-16 sm:px-8 px-4">
         <AboutComp />
-        <div className="w-full h-auto bg-white rounded-md my-16 px-6 py-20 flex items-center justify-center gap-x-16 gap-y-7 shadow-md border-2 border-gray-200 flex-wrap">
-          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-indigo-500 rounded-xl px-6 py-8">
+        <div className="w-full h-auto bg-white rounded-2xl my-16 px-6 py-20 flex items-center justify-center gap-x-16 gap-y-7 shadow-md border-2 border-gray-200 flex-wrap">
+          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-indigo-500 rounded-xl p-8">
             <div className="w-full h-auto flex items-center gap-x-2 mb-2">
               <img
                 src={Mission}
@@ -28,7 +28,7 @@ const About = () => {
             meticulously planned options, and a professional team, exceeding
             expectations and creating unforgettable memories.
           </div>
-          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-violet-500 rounded-xl px-6 py-8">
+          <div className="lg:w-[43%] md:w-[45%] sm:w-full w-full h-auto bg-violet-500 rounded-xl p-8">
             <div className="w-full h-auto flex items-center gap-x-2 mb-2">
               <img
                 src={Vision}
