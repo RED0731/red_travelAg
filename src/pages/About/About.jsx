@@ -13,7 +13,7 @@ const About = () => {
       <div className="w-full h-auto py-6 lg:px-20 md:px-16 sm:px-8 px-4">
         <AboutComp />
         <div className="w-full h-auto py-16 flex items-center gap-7">
-          <div className="w-1/2 h-auto bg-indigo-500 rounded-xl p-6">
+          <div className="w-1/2 h-auto bg-indigo-500 rounded-xl px-10 py-12">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -25,9 +25,18 @@ const About = () => {
               <path d="M0 0h24v24H0z" fill="none" />
               <path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-1 6h-4V4h4v4zm-6.002 0H9.002V4H13v4zm-4.001 6h-4V9h4v4zm6.001 0h-4V9h4v4zm-4 6h-4v-4h4v4zm6 0h-4v-4h4v4z" />
             </svg>
-            This is the mission & Vison template.
+            The mission of our travel agency is to provide exceptional customer
+            service and personalized travel experiences to our clients. We aim
+            to be a reliable and trusted partner, offering a wide range of
+            travel options and ensuring that every detail of our clients' trips
+            is meticulously planned and executed. Our dedicated team of travel
+            experts is committed to delivering the highest level of
+            professionalism and ensuring that our clients have a seamless and
+            enjoyable travel experience from start to finish. We strive to
+            exceed our clients' expectations and create lifelong memories
+            through unforgettable travel adventures.
           </div>
-          <div className="w-1/2 h-auto bg-orange-500 rounded-xl p-6">
+          <div className="w-1/2 h-auto bg-orange-500 rounded-xl px-10 py-12">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -39,7 +48,16 @@ const About = () => {
               <path d="M0 0h24v24H0z" fill="none" />
               <path d="M11 18h2v-2h-2v2zm4-10.44L12 3 7 7.56V17h10V7.56zm-2 9h-2v-2h2v2z" />
             </svg>
-            This is the mission & Vison template.
+            Our vision is to be a leading and innovative travel agency in the
+            industry, setting new standards of excellence and customer
+            satisfaction. We aspire to be the go-to choice for individuals and
+            businesses seeking expert travel guidance and exceptional service.
+            We continuously invest in technology and industry trends to stay
+            ahead of the curve and offer our clients the latest travel options
+            and experiences. We aim to build long-term relationships with our
+            clients, based on trust, transparency, and mutual respect. Our
+            ultimate goal is to inspire wanderlust and create unforgettable
+            travel memories that last a lifetime.
           </div>
         </div>
         <div className="w-full h-auto pb-16">
