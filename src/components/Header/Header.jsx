@@ -22,7 +22,7 @@ const Header = () => {
               className="relative text-gray-900 text-[1.7rem] font-black tracking-wider hover:text-gray-700 ease-out duration-700"
             >
               Travel
-              <sup className="absolute top-1 left-6 text-orange-500 font-medium text-[0.75rem] ">
+              <sup className="absolute top-1 left-6 text-[0.75rem] text-orange-500 font-medium">
                 Agency
               </sup>
             </Link>
