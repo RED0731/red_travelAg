@@ -1,5 +1,4 @@
 import React from "react";
-import "./Destination.css";
 import Tag from "../../../components/Tag/Tag";
 import Viewmore from "../../../components/Viewmore/Viewmore";
 
@@ -15,7 +14,7 @@ const Destination = () => {
               alt="Nepal"
               className="w-full h-full object-cover object-center"
             />
-            <div className="w-full h-full absolute bottom-0 py-5 destination_data flex items-center justify-end flex-col gap-y-1">
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <p className="text-gray-400 text-base font-normal">
                 130,325 travellers
               </p>
@@ -28,7 +27,7 @@ const Destination = () => {
               alt="Paris"
               className="w-full h-full object-cover object-center"
             />
-            <div className="w-full h-full absolute bottom-0 py-5 destination_data flex items-center justify-end flex-col gap-y-1">
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <p className="text-gray-400 text-base font-normal">
                 130,325 travellers
               </p>
@@ -42,7 +41,7 @@ const Destination = () => {
                 alt="Japan"
                 className="w-full h-full object-cover object-center"
               />
-              <div className="w-full h-full absolute bottom-0 py-3 destination_data flex items-center justify-end flex-col gap-y-1">
+              <div className="w-full h-full absolute bottom-0 py-3 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
                 <p className="text-gray-400 text-base font-normal">
                   130,325 travellers
                 </p>
@@ -55,7 +54,7 @@ const Destination = () => {
                 alt="Dubai"
                 className="w-full h-full object-cover object-center"
               />
-              <div className="w-full h-full absolute bottom-0 py-3 destination_data flex items-center justify-end flex-col gap-y-1">
+              <div className="w-full h-full absolute bottom-0 py-3 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
                 <p className="text-gray-400 text-base font-normal">
                   130,325 travellers
                 </p>
@@ -69,7 +68,7 @@ const Destination = () => {
               alt="India"
               className="w-full h-full object-cover object-center"
             />
-            <div className="w-full h-full absolute bottom-0 py-5 destination_data flex items-center justify-end flex-col gap-y-1">
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <p className="text-gray-400 text-base font-normal">
                 130,325 travellers
               </p>
