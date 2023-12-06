@@ -1,6 +1,6 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
-import InputForm from "../../components/Form/InputForm";
+import PrimaryButtton from "../../components/Button/PrimaryButton";
 
 const Tours = () => {
   return (
@@ -9,16 +9,16 @@ const Tours = () => {
         <Breadcrumb title="Tours" breadcrumb="Home / Tours" />
       </div>
       <div className="w-full h-auto mb-16 lg:px-20 md:px-16 sm:px-8 px-4">
-        <div className="w-full h-auto mb-8 p-3 bg-gray-100 rounded-xl shadow-inner flex items-center justify-between">
-          <div className="w-full h-auto">
-            <InputForm
-              type={"number"}
-              id={"phone"}
-              placeholder={"Phone nbr."}
-              required={true}
+        <div className="w-full h-auto mb-8 p-6 bg-white rounded-xl flex items-center justify-between border border-gray-200 shadow gap-5">
+          <div className="w-[30%] h-auto flex items-center gap-1">
+            <input
+              type="text"
+              placeholder="Search tours..."
+              className="bg-gray-100 border-2 text-gray-950 rounded-md text-[1rem] font-medium outline-none w-full h-[40px] p-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700"
             />
+            <PrimaryButtton children="Search" />
           </div>
-          <div className="w-full h-auto">This is the section.</div>
+          <div className="w-[40%] h-auto bg-orange-500 rounded-xl">This is the section.</div>
         </div>
         <div className="w-full h-auto flex items-center gap-9 flex-wrap">
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
