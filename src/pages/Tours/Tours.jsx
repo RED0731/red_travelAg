@@ -27,7 +27,7 @@ const Tours = () => {
               <option value="sort" selected={true}>
                 Sort By
               </option>
-              <option value="alphabet">By </option>
+              <option value="alphabet">By Airplane</option>
               <option value="alphabet">Alphabet</option>
               <option value="alphabet">Alphabet</option>
               <option value="alphabet">Alphabet</option>
