@@ -18,12 +18,17 @@ const Tours = () => {
             />
             <PrimaryButtton children="Search" />
           </div>
-          <div className="w-[30%] h-auto flex items-center justify-center font-normal text-base gap-x-1 text-gray-950">
+          <div className="w-[45%] h-auto flex items-center justify-center font-normal text-base gap-x-1 text-gray-950">
             Showing results of <span className="font-semibold">1 - 8</span> of{" "}
             <span className="font-semibold">88</span> tours
           </div>
-          <div className="w-[30%] h-auto bg-orange-500 rounded-xl">
-            This is the section.
+          <div className="w-[25%] h-auto">
+            <select className="bg-gray-100 border-2 text-gray-950 rounded-md text-[1rem] font-medium outline-none w-full h-[40px] px-4 focus:outline-none focus:bg-gray-100/80 focus:border-orange-500 ease-out duration-700">
+              <option value="sort" selected={true}>
+                Sort By
+              </option>
+              <option value="alphabet">Alphabet</option>
+            </select>
           </div>
         </div>
         <div className="w-full h-auto flex items-center gap-9 flex-wrap">
