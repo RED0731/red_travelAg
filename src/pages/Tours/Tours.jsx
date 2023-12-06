@@ -1,5 +1,6 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
+import InputForm from "../../components/Form/InputForm";
 
 const Tours = () => {
   return (
@@ -8,8 +9,16 @@ const Tours = () => {
         <Breadcrumb title="Tours" breadcrumb="Home / Tours" />
       </div>
       <div className="w-full h-auto mb-16 lg:px-20 md:px-16 sm:px-8 px-4">
-        <div className="w-full h-auto mb-8 p-3 bg-gray-200 rounded-xl shadow">
-          This is the filder section.
+        <div className="w-full h-auto mb-8 p-3 bg-gray-100 rounded-xl shadow-inner flex items-center justify-between">
+          <div className="w-full h-auto">
+            <InputForm
+              type={"number"}
+              id={"phone"}
+              placeholder={"Phone nbr."}
+              required={true}
+            />
+          </div>
+          <div className="w-full h-auto">This is the section.</div>
         </div>
         <div className="w-full h-auto flex items-center gap-9 flex-wrap">
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
