@@ -18,7 +18,13 @@ const Tours = () => {
             />
             <PrimaryButtton children="Search" />
           </div>
-          <div className="w-[40%] h-auto bg-orange-500 rounded-xl">This is the section.</div>
+          <div className="w-[30%] h-auto flex items-center justify-center font-normal text-base gap-x-1 text-gray-950">
+            Showing results of <span className="font-semibold">1 - 8</span> of{" "}
+            <span className="font-semibold">88</span> tours
+          </div>
+          <div className="w-[30%] h-auto bg-orange-500 rounded-xl">
+            This is the section.
+          </div>
         </div>
         <div className="w-full h-auto flex items-center gap-9 flex-wrap">
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
