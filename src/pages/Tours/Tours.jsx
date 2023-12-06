@@ -216,13 +216,13 @@ const Tours = () => {
           <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
             2
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
             3
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md lg:flex md:flex sm:flex hidden items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
             4
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/60 rounded-md flex items-center justify-center gap-x-1 text-base text-gray-950 font-semibold cursor-pointer">
+          <div className="w-[40px] h-[40px] bg-white border border-gray-400/60 rounded-md lg:flex md:flex sm:flex hidden items-center justify-center gap-x-1 text-base text-gray-950 font-semibold cursor-pointer">
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
