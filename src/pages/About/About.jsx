@@ -190,11 +190,11 @@ const About = () => {
                 alt="team member"
                 className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
-              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+              <div className="w-auto h-[45px] px-4 border border-gray-400 flex items-center justify-center bg-indigo-500/80 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer -ml-6">
                 10+ More Expert Hiikers
               </div>
             </div>
-            <div className="w-[30%] h-auto p-3 flex items-center bg-indigo-500/10 rounded-xl">
+            <div className="w-[30%] h-auto p-3 flex items-center bg-purple-500/10 rounded-xl">
               <img
                 src="https://cdn.pixabay.com/photo/2015/09/03/06/59/man-920083_1280.jpg"
                 alt="team member"
@@ -215,11 +215,11 @@ const About = () => {
                 alt="team member"
                 className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
-              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+              <div className="w-auto h-[45px] px-4 border border-gray-400 flex items-center justify-center bg-purple-500/80 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer -ml-6">
                 5+ More Boat Captain
               </div>
             </div>
-            <div className="w-[25%] h-auto p-3 flex items-center bg-indigo-500/10 rounded-xl">
+            <div className="w-[25%] h-auto p-3 flex items-center bg-blue-500/10 rounded-xl">
               <img
                 src="https://cdn.pixabay.com/photo/2015/09/03/06/59/man-920083_1280.jpg"
                 alt="team member"
@@ -240,7 +240,7 @@ const About = () => {
                 alt="team member"
                 className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
-              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+              <div className="w-auto h-[45px] px-4 border border-gray-400 flex items-center justify-center bg-teal-500/80 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer -ml-6">
                 4+ More Team
               </div>
             </div>
