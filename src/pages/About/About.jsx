@@ -194,6 +194,56 @@ const About = () => {
                 10+ More Expert Hiikers
               </div>
             </div>
+            <div className="w-[30%] h-auto p-3 flex items-center bg-indigo-500/10 rounded-xl">
+              <img
+                src="https://cdn.pixabay.com/photo/2015/09/03/06/59/man-920083_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2022/05/22/16/50/outdoors-7213961_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/10/11/12/03/dalat-2840836_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+                5+ More Boat Captain
+              </div>
+            </div>
+            <div className="w-[30%] h-auto p-3 flex items-center bg-indigo-500/10 rounded-xl">
+              <img
+                src="https://cdn.pixabay.com/photo/2015/09/03/06/59/man-920083_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2022/05/22/16/50/outdoors-7213961_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/10/11/12/03/dalat-2840836_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/09/21/19/06/woman-2773007_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+                4+ More Boat Captain
+              </div>
+            </div>
           </div>
         </div>
       </div>
