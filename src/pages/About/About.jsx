@@ -154,7 +154,7 @@ const About = () => {
             </div>
           </div>
           <div className="w-full h-auto flex items-center gap-7">
-            <div className="w-[30%] h-auto p-3 flex items-center">
+            <div className="w-[40%] h-auto p-3 flex items-center bg-indigo-500/10 rounded-xl">
               <img
                 src="https://cdn.pixabay.com/photo/2015/05/03/14/40/woman-751236_1280.jpg"
                 alt="team member"
@@ -180,6 +180,19 @@ const About = () => {
                 alt="team member"
                 className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/06/06/17/05/woman-1439909_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
+              />
+              <div className="w-auto h-[45px] px-4 border border-gray-400 bg-indigo-500 rounded-full text-[1.1rem] font-medium text-gray-950 shadow-md cursor-pointer flex items-center justify-center -ml-6">
+                10+ More Expert Hiikers
+              </div>
             </div>
           </div>
         </div>
