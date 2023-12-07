@@ -43,7 +43,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto pb-16">
           <Tag tagSlog="Our Teams" tagTitle="Meet Expert Teams" />
-          <div className="w-full h-auto flex items-center justify-between gap-7">
+          <div className="w-full h-auto flex items-center justify-between gap-7 mb-8">
             <div className="w-[30%] h-[80vh] relative rounded-bl-3xl rounded-tl-3xl overflow-hidden cursor-pointer">
               <img
                 src="https://cdn.pixabay.com/photo/2019/03/24/22/05/man-4078827_1280.jpg"
@@ -151,6 +151,11 @@ const About = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="w-full h-auto flex items-center gap-7">
+            <div className="w-[30%] h-auto p-3 bg-orange-500 rounded-md">
+              Hello there!
             </div>
           </div>
         </div>
