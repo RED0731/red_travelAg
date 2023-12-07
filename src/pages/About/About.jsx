@@ -75,7 +75,7 @@ const About = () => {
                         Gokarna Adhikari
                       </h1>
                       <p className="text-base text-orange-400 font-normal">
-                        CEO/Founder of TravelAg
+                        Expert Offroad Driver
                       </p>
                     </div>
                   </div>
