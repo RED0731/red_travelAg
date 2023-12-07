@@ -158,27 +158,27 @@ const About = () => {
               <img
                 src="https://cdn.pixabay.com/photo/2015/05/03/14/40/woman-751236_1280.jpg"
                 alt="team member"
-                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer hover:z-10 ease-out duration-700"
               />
               <img
                 src="https://cdn.pixabay.com/photo/2022/07/24/23/46/artificial-intelligence-7342613_1280.jpg"
                 alt="team member"
-                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-700"
               />
               <img
                 src="https://cdn.pixabay.com/photo/2022/09/11/15/44/artificial-intelligence-7447307_1280.jpg"
                 alt="team member"
-                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-700"
               />
               <img
                 src="https://cdn.pixabay.com/photo/2016/09/22/16/38/avatar-1687700_1280.jpg"
                 alt="team member"
-                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
               <img
                 src="https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg"
                 alt="team member"
-                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6 hover:z-10 ease-out duration-1000"
               />
             </div>
           </div>
