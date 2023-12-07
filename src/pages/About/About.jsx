@@ -154,8 +154,32 @@ const About = () => {
             </div>
           </div>
           <div className="w-full h-auto flex items-center gap-7">
-            <div className="w-[30%] h-auto p-3 bg-orange-500 rounded-md">
-              Hello there!
+            <div className="w-[30%] h-auto p-3 flex items-center">
+              <img
+                src="https://cdn.pixabay.com/photo/2015/05/03/14/40/woman-751236_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2022/07/24/23/46/artificial-intelligence-7342613_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2022/09/11/15/44/artificial-intelligence-7447307_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2016/09/22/16/38/avatar-1687700_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2015/07/09/00/29/woman-837156_1280.jpg"
+                alt="team member"
+                className="w-[65px] h-[65px] p-0.5 border border-gray-400 object-cover object-center rounded-full shadow-md cursor-pointer -ml-6"
+              />
             </div>
           </div>
         </div>
