@@ -311,27 +311,27 @@ const Packages = () => {
           <div className="w-[40px] h-[40px] bg-gray-300 border border-gray-300 rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer">
             1
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             2
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             3
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-full lg:flex md:flex sm:flex hidden items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full lg:flex md:flex sm:flex hidden items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             4
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/60 rounded-full lg:flex md:flex sm:flex hidden items-center justify-center gap-x-1 text-base text-gray-950 font-normal cursor-pointer">
+          <div className="w-[40px] h-[40px] border border-gray-400/40 rounded-full lg:flex md:flex sm:flex hidden items-center justify-center gap-x-1 text-base text-gray-950 font-normal cursor-pointer">
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             10
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             11
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
