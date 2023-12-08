@@ -7,7 +7,9 @@ const Blog = () => {
       <div className="w-full h-[40vh] mb-14 mt-16">
         <Breadcrumb title="News & Blog" breadcrumb="Home / Blog" />
       </div>
-      <div className="w-full h-auto pb-16 lg:px-20 md:px-16 sm:px-8 px-4">This is the blog section.</div>
+      <div className="w-full h-auto pb-16 lg:px-20 md:px-16 sm:px-8 px-4">
+        This is the blog section.
+      </div>
     </>
   );
 };
