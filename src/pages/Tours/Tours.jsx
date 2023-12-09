@@ -224,48 +224,54 @@ const Tours = () => {
           {/* <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="16"
+              height="16"
               fill="currentColor"
-              viewBox="0 0 24 24"
-              className="text-gray-950"
+              class="bi bi-arrow-left text-gray-950"
+              viewBox="0 0 16 16"
             >
-              <path d="M0 12l9-8v6h12v4h-12v6z" />
+              <path
+                // fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"
+              />
             </svg>
           </div> */}
-          <div className="w-[40px] h-[40px] bg-orange-500 border border-orange-500 rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer">
+          <div className="w-[40px] h-[40px] bg-gray-300 border border-gray-300 rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer">
             1
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             2
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             3
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/80 shadow rounded-md lg:flex md:flex sm:flex hidden items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full lg:flex md:flex sm:flex hidden items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             4
           </div>
-          <div className="w-[40px] h-[40px] bg-white border border-gray-400/60 rounded-md lg:flex md:flex sm:flex hidden items-center justify-center gap-x-1 text-base text-gray-950 font-semibold cursor-pointer">
+          <div className="w-[40px] h-[40px] border border-gray-400/40 rounded-full lg:flex md:flex sm:flex hidden items-center justify-center gap-x-1 text-base text-gray-950 font-normal cursor-pointer">
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
             <div className="w-1 h-1 bg-gray-950 rounded-full"></div>
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             10
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             11
           </div>
-          <div className="w-[40px] h-[40px]  bg-white border border-gray-400/80 shadow rounded-md flex items-center justify-center text-base text-gray-950 font-semibold cursor-pointer hover:bg-orange-500 ease-out duration-700">
+          <div className="w-[40px] h-[40px] border border-gray-400/80 shadow rounded-full flex items-center justify-center text-base text-gray-950 font-normal cursor-pointer hover:bg-gray-300 ease-out duration-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="16"
+              height="16"
               fill="currentColor"
-              viewBox="0 0 24 24"
-              className="text-gray-950"
+              class="bi bi-arrow-right text-gray-950"
+              viewBox="0 0 16 16"
             >
-              <path d="M24 12l-9-8v6h-12v4h12v6z" />
+              <path
+                // fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+              />
             </svg>
           </div>
         </div>
