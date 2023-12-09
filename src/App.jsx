@@ -9,6 +9,7 @@ import Blog from "./pages/Blog/Blog";
 import Tours from "./pages/Tours/Tours";
 import Packages from "./pages/Packages/Packages";
 import Contact from "./pages/Contact/Contact";
+import TourDetail from "./pages/Tours/TourDetail";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             <Route exact path="/packages" element={<Packages />} />
             <Route exact path="/blogs" element={<Blog />} />
             <Route exact path="/contact" element={<Contact />} />
+
+            {/* Detail Section */}
+            <Route exact path="/tours-detail" element={<TourDetail />} />
           </Routes>
           <Footer />
         </div>

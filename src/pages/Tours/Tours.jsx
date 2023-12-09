@@ -1,6 +1,7 @@
 import React from "react";
 import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
 import PrimaryButtton from "../../components/Button/PrimaryButton";
+import { Link } from "react-router-dom";
 
 const Tours = () => {
   return (
@@ -37,12 +38,129 @@ const Tours = () => {
         <div className="w-full h-auto flex items-center gap-9 flex-wrap">
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
+              src="https://cdn.pixabay.com/photo/2015/08/26/17/46/nepal-908837_1280.jpg"
+              alt="Explore Nepal"
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
+              >
+                Explore Nepal
+              </Link>
+              <div className="w-full h-auto py-1 flex items-center justify-center">
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  130 Tours
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  05 Hotels
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  30+ Vehicles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/08/09/09/43/eiffel-tower-2613935_1280.jpg"
+              alt="Explore Paris"
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
+              >
+                Explore Paris
+              </Link>
+              <div className="w-full h-auto py-1 flex items-center justify-center">
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  130 Tours
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  05 Hotels
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  30+ Vehicles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
+            <img
+              src="https://cdn.pixabay.com/photo/2021/10/07/19/25/india-6689615_1280.jpg"
               alt="Explore India"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
+              >
+                Explore India
+              </Link>
+              <div className="w-full h-auto py-1 flex items-center justify-center">
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  130 Tours
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  05 Hotels
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  30+ Vehicles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
+            <img
+              src="https://cdn.pixabay.com/photo/2014/09/11/18/23/tower-bridge-441853_960_720.jpg"
+              alt="Explore UK"
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
+              >
+                Explore UK
+              </Link>
+              <div className="w-full h-auto py-1 flex items-center justify-center">
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  130 Tours
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  05 Hotels
+                </p>
+                <span className="px-1.5 text-gray-400">|</span>
+                <p className="text-gray-400 text-[0.85rem] font-normal">
+                  30+ Vehicles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
+            <img
+              src="https://cdn.pixabay.com/photo/2013/10/29/08/34/queen-of-liberty-202218_1280.jpg"
+              alt="Explore USA"
+              className="w-full h-full object-cover object-center"
+            />
+            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
+              >
+                Explore USA
+              </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -65,7 +183,12 @@ const Tours = () => {
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+              >
+                Explore India
+              </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -88,7 +211,12 @@ const Tours = () => {
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+              >
+                Explore India
+              </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
@@ -111,99 +239,12 @@ const Tours = () => {
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
-              <div className="w-full h-auto py-1 flex items-center justify-center">
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  130 Tours
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  05 Hotels
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  30+ Vehicles
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
-              className="w-full h-full object-cover object-center"
-            />
-            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
-              <div className="w-full h-auto py-1 flex items-center justify-center">
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  130 Tours
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  05 Hotels
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  30+ Vehicles
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
-              className="w-full h-full object-cover object-center"
-            />
-            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
-              <div className="w-full h-auto py-1 flex items-center justify-center">
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  130 Tours
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  05 Hotels
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  30+ Vehicles
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
-              className="w-full h-full object-cover object-center"
-            />
-            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
-              <div className="w-full h-auto py-1 flex items-center justify-center">
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  130 Tours
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  05 Hotels
-                </p>
-                <span className="px-1.5 text-gray-400">|</span>
-                <p className="text-gray-400 text-[0.85rem] font-normal">
-                  30+ Vehicles
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
-            <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
-              className="w-full h-full object-cover object-center"
-            />
-            <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
-              <h1 className="text-gray-50 text-2xl font-bold">Explore India</h1>
+              <Link
+                to="/tours-detail"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+              >
+                Explore India
+              </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
                   130 Tours
