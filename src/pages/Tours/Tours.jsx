@@ -178,16 +178,16 @@ const Tours = () => {
           </div>
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
+              src="https://cdn.pixabay.com/photo/2018/11/04/06/21/canada-3793279_1280.jpg"
+              alt="Explore Canada"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <Link
                 to="/tours-detail"
-                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
               >
-                Explore India
+                Explore Canada
               </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
@@ -206,16 +206,16 @@ const Tours = () => {
           </div>
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
+              src="https://cdn.pixabay.com/photo/2019/12/06/05/46/alpine-village-4676673_1280.jpg"
+              alt="Explore Switzerland"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <Link
                 to="/tours-detail"
-                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
               >
-                Explore India
+                Explore Switzerland
               </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
@@ -234,16 +234,16 @@ const Tours = () => {
           </div>
           <div className="lg:w-[23%] md:w-[30%] sm:w-full w-full h-[50vh] rounded-xl overflow-hidden relative">
             <img
-              src="https://cdn.pixabay.com/photo/2019/03/16/11/27/pune-4058851_1280.jpg"
-              alt="Explore India"
+              src="https://cdn.pixabay.com/photo/2016/11/19/21/29/temple-1841296_1280.jpg"
+              alt="Explore Japan"
               className="w-full h-full object-cover object-center"
             />
             <div className="w-full h-full absolute bottom-0 py-5 linear_gradient_to_bottom flex items-center justify-end flex-col gap-y-1">
               <Link
                 to="/tours-detail"
-                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700 hover:text-orange-400 ease-out duration-700"
+                className="text-gray-50 text-2xl font-bold hover:text-orange-400 ease-out duration-700"
               >
-                Explore India
+                Explore Japan
               </Link>
               <div className="w-full h-auto py-1 flex items-center justify-center">
                 <p className="text-gray-400 text-[0.85rem] font-normal">
