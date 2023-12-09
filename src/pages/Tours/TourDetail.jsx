@@ -66,6 +66,15 @@ const TourDetail = () => {
                 facilis consequuntur quibusdam provident repellat quas neque
                 exercitationem tempora quo?
               </p>
+              <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                Our Services
+              </h1>
+              <p className="text-gray-600 text-base font-normal mb-6">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum quas voluptatibus modi sapiente, placeat quia voluptates
+                ducimus fugiat veniam tenetur perferendis assumenda labore
+                dolorem beatae?
+              </p>
             </div>
             <div className="lg:w-[28%] md:w-[28%] sm:w-full w-full h-auto">
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
