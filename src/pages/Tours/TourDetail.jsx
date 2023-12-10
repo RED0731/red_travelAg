@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Nepal from "../../assets/Packages/nepal.jpg";
 import NepalFlag from "../../assets/Packages/nepal.png";
 import Canada from "../../assets/Packages/canada.jpg";
@@ -276,7 +275,7 @@ const TourDetail = () => {
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
                 Popular tour package
               </h1>
-              <Link className="my-2 w-full h-auto">
+              <div className="my-2 w-full h-auto">
                 <Swiper
                   // grabCursor={false}
                   effect={"creative"}
@@ -298,7 +297,7 @@ const TourDetail = () => {
                     },
                   }}
                   modules={[Autoplay, EffectCreative]}
-                  className="mySwiper5"
+                  className=""
                 >
                   {Package.map((packag) => (
                     <SwiperSlide key={packag._id}>
@@ -378,7 +377,7 @@ const TourDetail = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-              </Link>
+              </div>
             </div>
           </div>
         </div>
