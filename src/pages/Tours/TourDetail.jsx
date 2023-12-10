@@ -246,7 +246,7 @@ const TourDetail = () => {
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
                 Tour details
               </h1>
-              <p className="text-gray-600 text-base font-normal mb-6">
+              <p className="text-gray-600 text-base font-normal mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
                 adipisci labore voluptas, corporis officiis, odit voluptatibus
                 cum ducimus eaque reiciendis tempora dolorum quibusdam id
@@ -264,12 +264,20 @@ const TourDetail = () => {
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
                 Our Services
               </h1>
-              <p className="text-gray-600 text-base font-normal mb-6">
+              <p className="text-gray-600 text-base font-normal mb-8">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Laborum quas voluptatibus modi sapiente, placeat quia voluptates
                 ducimus fugiat veniam tenetur perferendis assumenda labore
                 dolorem beatae?
               </p>
+              <div className="w-full h-auto mb-8">
+                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                  Our Services
+                </h1>
+                <p className="text-base text-gray-600 font-normal">
+                  Lorem, ipsum dolor.
+                </p>
+              </div>
             </div>
             <div className="lg:w-[28%] md:w-[28%] sm:w-full w-full h-auto">
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
