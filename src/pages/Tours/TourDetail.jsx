@@ -244,10 +244,10 @@ const TourDetail = () => {
           <div className="w-full h-auto flex items-start justify-between gap-7 flex-wrap">
             <div className="w-[65%] h-auto">
               <div className="w-full h-auto mb-8">
-                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                <h1 className="text-2xl text-gray-700 font-bold mb-4">
                   Tour details
                 </h1>
-                <p className="text-gray-600 text-base font-normal">
+                <p className="text-gray-500 text-base font-normal mb-4">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
                   adipisci labore voluptas, corporis officiis, odit voluptatibus
                   cum ducimus eaque reiciendis tempora dolorum quibusdam id
@@ -262,10 +262,16 @@ const TourDetail = () => {
                   facilis consequuntur quibusdam provident repellat quas neque
                   exercitationem tempora quo?
                 </p>
+                <h1 className="text-xl text-gray-600 font-bold mb-4">
+                  Tour Includes
+                </h1>
+                <div className="w-full h-auto flex itemx-center gap-7">
+                  <img src="ggg" alt="" className="" />
+                </div>
               </div>
               <div className="w-full h-auto mb-8">
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
-                  Our Services
+                  Tour Services
                 </h1>
                 <p className="text-gray-600 text-base font-normal mb-8">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
