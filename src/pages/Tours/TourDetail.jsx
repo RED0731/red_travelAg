@@ -243,36 +243,40 @@ const TourDetail = () => {
         <div className="w-full h-auto py-16 lg:px-20 md:px-16 sm:px-8 px-4">
           <div className="w-full h-auto flex items-start justify-between gap-7 flex-wrap">
             <div className="w-[65%] h-auto">
-              <h1 className="text-2xl text-gray-600 font-bold mb-4">
-                Tour details
-              </h1>
-              <p className="text-gray-600 text-base font-normal mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-                adipisci labore voluptas, corporis officiis, odit voluptatibus
-                cum ducimus eaque reiciendis tempora dolorum quibusdam id
-                deleniti vel incidunt dicta asperiores, vero mollitia dolorem!
-                Labore amet dignissimos excepturi natus facilis minus quis hic
-                ducimus debitis. Eius at, voluptatum repellat similique
-                molestias possimus. Assumenda vitae mollitia aliquam, unde nobis
-                deserunt fuga enim beatae itaque reiciendis porro optio atque
-                perspiciatis fugit eius nam facere, ea at ducimus minima
-                explicabo. Beatae soluta harum autem laboriosam quidem, sed
-                labore eum accusamus modi, officia similique veritatis nisi
-                facilis consequuntur quibusdam provident repellat quas neque
-                exercitationem tempora quo?
-              </p>
-              <h1 className="text-2xl text-gray-600 font-bold mb-4">
-                Our Services
-              </h1>
-              <p className="text-gray-600 text-base font-normal mb-8">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laborum quas voluptatibus modi sapiente, placeat quia voluptates
-                ducimus fugiat veniam tenetur perferendis assumenda labore
-                dolorem beatae?
-              </p>
+              <div className="w-full h-auto mb-8">
+                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                  Tour details
+                </h1>
+                <p className="text-gray-600 text-base font-normal">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                  adipisci labore voluptas, corporis officiis, odit voluptatibus
+                  cum ducimus eaque reiciendis tempora dolorum quibusdam id
+                  deleniti vel incidunt dicta asperiores, vero mollitia dolorem!
+                  Labore amet dignissimos excepturi natus facilis minus quis hic
+                  ducimus debitis. Eius at, voluptatum repellat similique
+                  molestias possimus. Assumenda vitae mollitia aliquam, unde
+                  nobis deserunt fuga enim beatae itaque reiciendis porro optio
+                  atque perspiciatis fugit eius nam facere, ea at ducimus minima
+                  explicabo. Beatae soluta harum autem laboriosam quidem, sed
+                  labore eum accusamus modi, officia similique veritatis nisi
+                  facilis consequuntur quibusdam provident repellat quas neque
+                  exercitationem tempora quo?
+                </p>
+              </div>
               <div className="w-full h-auto mb-8">
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Our Services
+                </h1>
+                <p className="text-gray-600 text-base font-normal mb-8">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum quas voluptatibus modi sapiente, placeat quia
+                  voluptates ducimus fugiat veniam tenetur perferendis assumenda
+                  labore dolorem beatae?
+                </p>
+              </div>
+              <div className="w-full h-auto mb-8">
+                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                  Hotels from our contract.
                 </h1>
                 <p className="text-base text-gray-600 font-normal">
                   Lorem, ipsum dolor.
