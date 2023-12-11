@@ -364,141 +364,116 @@ const TourDetail = () => {
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Hotels from our contract.
                 </h1>
-                <div className="w-full h-auto">
-                  <Swiper
-                    navigation={true}
-                    loop={true}
-                    effect={"coverflow"}
-                    grabCursor={true}
-                    centeredSlides={true}
-                    slidesPerView={3}
-                    spaceBetween={50}
-                    autoplay={{
-                      delay: 2500,
-                      disableOnInteraction: false,
-                    }}
-                    // coverflowEffect={{
-                    //   rotate: 0,
-                    //   stretch: 0,
-                    //   depth: 100,
-                    //   modifier: 1,
-                    //   slideShadows: true,
-                    // }}
-                    breakpoints={{
-                      "@0.00": {
-                        slidesPerView: 1,
-                        spaceBetween: 10,
-                      },
-                      "@0.75": {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                      },
-                      "@1.00": {
-                        slidesPerView: 3,
-                        spaceBetween: 40,
-                      },
-                      "@1.50": {
-                        slidesPerView: 4,
-                        spaceBetween: 50,
-                      },
-                    }}
-                    modules={[Autoplay, Navigation, EffectCoverflow]}
-                    className="w-full h-auto flex items-center gap-7"
-                  >
-                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                      <div className="w-full h-auto">
-                        <img
-                          src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
-                          alt="hotel img"
-                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                        />
-                        <h1 className="text-xl text-gray-600 font-bold px-2">
-                          Contracted First Hotel
-                        </h1>
-                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                          $180.32{" "}
-                          <span className="text-[0.9rem] text-gray-500">
-                            /night
-                          </span>
-                        </p>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                      <div className="w-full h-auto">
-                        <img
-                          src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg"
-                          alt="hotel img"
-                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                        />
-                        <h1 className="text-xl text-gray-600 font-bold px-2">
-                          Contracted Second Hotel
-                        </h1>
-                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                          $300.55{" "}
-                          <span className="text-[0.9rem] text-gray-500">
-                            /night
-                          </span>
-                        </p>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                      <div className="w-full h-auto">
-                        <img
-                          src="https://cdn.pixabay.com/photo/2017/09/21/16/12/holidays-2772361_1280.jpg"
-                          alt="hotel img"
-                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                        />
-                        <h1 className="text-xl text-gray-600 font-bold px-2">
-                          Contracted Third Hotel
-                        </h1>
-                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                          $180.32{" "}
-                          <span className="text-[0.9rem] text-gray-500">
-                            /night
-                          </span>
-                        </p>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                      <div className="w-full h-auto">
-                        <img
-                          src="https://cdn.pixabay.com/photo/2013/11/15/19/52/lanzarote-211041_1280.jpg"
-                          alt="hotel img"
-                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                        />
-                        <h1 className="text-xl text-gray-600 font-bold px-2">
-                          Contracted Fourth Hotel
-                        </h1>
-                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                          $180.32{" "}
-                          <span className="text-[0.9rem] text-gray-500">
-                            /night
-                          </span>
-                        </p>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                      <div className="w-full h-auto">
-                        <img
-                          src="https://cdn.pixabay.com/photo/2023/04/14/22/09/ai-generated-7926444_960_720.jpg"
-                          alt="hotel img"
-                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                        />
-                        <h1 className="text-xl text-gray-600 font-bold px-2">
-                          Contracted Fifth Hotel
-                        </h1>
-                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                          $180.32{" "}
-                          <span className="text-[0.9rem] text-gray-500">
-                            /night
-                          </span>
-                        </p>
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
-                </div>
+                <Swiper
+                  navigation={true}
+                  loop={true}
+                  effect={"coverflow"}
+                  grabCursor={true}
+                  centeredSlides={true}
+                  slidesPerView={3}
+                  spaceBetween={10}
+                  autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
+                  modules={[Autoplay, Navigation, EffectCoverflow]}
+                  className="w-full h-auto flex items-center gap-7"
+                >
+                  <SwiperSlide className="w-[33%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    {" "}
+                    <div className="w-full h-auto">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
+                        alt="hotel img"
+                        className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                      />
+                      <h1 className="text-xl text-gray-600 font-bold px-2">
+                        Contracted First Hotel
+                      </h1>
+                      <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                        $180.32{" "}
+                        <span className="text-[0.9rem] text-gray-500">
+                          /night
+                        </span>
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="w-[33%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <div className="w-full h-auto">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg"
+                        alt="hotel img"
+                        className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                      />
+                      <h1 className="text-xl text-gray-600 font-bold px-2">
+                        Contracted Second Hotel
+                      </h1>
+                      <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                        $300.55{" "}
+                        <span className="text-[0.9rem] text-gray-500">
+                          /night
+                        </span>
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="w-[33%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <div className="w-full h-auto">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2017/09/21/16/12/holidays-2772361_1280.jpg"
+                        alt="hotel img"
+                        className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                      />
+                      <h1 className="text-xl text-gray-600 font-bold px-2">
+                        Contracted Third Hotel
+                      </h1>
+                      <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                        $180.32{" "}
+                        <span className="text-[0.9rem] text-gray-500">
+                          /night
+                        </span>
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="w-[33%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <div className="w-full h-auto">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2013/11/15/19/52/lanzarote-211041_1280.jpg"
+                        alt="hotel img"
+                        className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                      />
+                      <h1 className="text-xl text-gray-600 font-bold px-2">
+                        Contracted Fourth Hotel
+                      </h1>
+                      <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                        $180.32{" "}
+                        <span className="text-[0.9rem] text-gray-500">
+                          /night
+                        </span>
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="w-[33%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <div className="w-full h-auto">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2013/11/15/19/52/lanzarote-211041_1280.jpg"
+                        alt="hotel img"
+                        className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                      />
+                      <h1 className="text-xl text-gray-600 font-bold px-2">
+                        Contracted Fifth Hotel
+                      </h1>
+                      <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                        $180.32{" "}
+                        <span className="text-[0.9rem] text-gray-500">
+                          /night
+                        </span>
+                      </p>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
+            {/* Popular tour */}
             <div className="lg:w-[28%] md:w-[28%] sm:w-full w-full h-auto">
               <h1 className="text-2xl text-gray-600 font-bold mb-4">
                 Popular tour package
