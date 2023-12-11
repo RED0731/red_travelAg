@@ -291,17 +291,55 @@ const TourDetail = () => {
                       width="20"
                       height="20"
                       fill="currentColor"
-                      class="bi bi-arrow-right text-orange-600 font-bold"
+                      class="bi bi-arrow-return-right text-orange-600 font-bold"
                       viewBox="0 0 16 16"
                     >
                       <path
                         fill-rule="evenodd"
-                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                        d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"
                       />
                     </svg>
-                    <p className="text-gray-500 text-base font-normal">
+                    <p className="text-gray-600 text-base font-normal">
+                      One night stay at the hotel in the city center with free
+                      breakfast and dinner.
+                    </p>
+                  </div>
+                  <div className="w-full h-auto flex items-center gap-x-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-arrow-return-right text-orange-600 font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"
+                      />
+                    </svg>
+                    <p className="text-gray-600 text-base font-normal">
                       Free transportation from the airport or our agency to the
                       hotel.
+                    </p>
+                  </div>
+                  <div className="w-full h-auto flex items-center gap-x-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-arrow-return-right text-orange-600 font-bold"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"
+                      />
+                    </svg>
+                    <p className="text-gray-600 text-base font-normal">
+                      One night stay at the hotel in the city center with free
+                      breakfast and dinner.
                     </p>
                   </div>
                 </div>
