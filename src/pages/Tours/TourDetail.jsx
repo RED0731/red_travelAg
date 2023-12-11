@@ -364,31 +364,50 @@ const TourDetail = () => {
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Hotels from our contract.
                 </h1>
-                <div className="w-full h-auto flex items-center gap-7">
+                <div className="w-full h-auto">
                   <Swiper
                     navigation={true}
+                    loop={true}
                     effect={"coverflow"}
                     grabCursor={true}
                     centeredSlides={true}
-                    slidesPerView={"auto"}
-                    loop={true}
+                    slidesPerView={3}
+                    spaceBetween={50}
                     autoplay={{
                       delay: 2500,
                       disableOnInteraction: false,
                     }}
-                    coverflowEffect={{
-                      rotate: 50,
-                      stretch: 0,
-                      depth: 100,
-                      modifier: 1,
-                      slideShadows: true,
+                    // coverflowEffect={{
+                    //   rotate: 0,
+                    //   stretch: 0,
+                    //   depth: 100,
+                    //   modifier: 1,
+                    //   slideShadows: true,
+                    // }}
+                    breakpoints={{
+                      "@0.00": {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                      },
+                      "@0.75": {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      "@1.00": {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                      },
+                      "@1.50": {
+                        slidesPerView: 4,
+                        spaceBetween: 50,
+                      },
                     }}
                     modules={[Autoplay, Navigation, EffectCoverflow]}
-                    className=""
+                    className="w-full h-auto flex items-center gap-7"
                   >
-                    <SwiperSlide>
+                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
                       {" "}
-                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                      <div className="w-full h-auto">
                         <img
                           src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
                           alt="hotel img"
@@ -405,8 +424,8 @@ const TourDetail = () => {
                         </p>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                      <div className="w-full h-auto">
                         <img
                           src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg"
                           alt="hotel img"
@@ -423,8 +442,8 @@ const TourDetail = () => {
                         </p>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <SwiperSlide className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                      <div className="w-full h-auto">
                         <img
                           src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
                           alt="hotel img"
