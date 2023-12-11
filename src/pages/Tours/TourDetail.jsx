@@ -359,9 +359,24 @@ const TourDetail = () => {
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Hotels from our contract.
                 </h1>
-                <p className="text-base text-gray-600 font-normal">
-                  Lorem, ipsum dolor.
-                </p>
+                <div className="w-full h-auto flex items-center gap-7">
+                  <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                    <img
+                      src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
+                      alt="hotel img"
+                      className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                    />
+                    <h1 className="text-xl text-gray-600 font-bold px-2">
+                      Contracted First Hotel
+                    </h1>
+                    <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                      $180.32{" "}
+                      <span className="text-[0.9rem] text-gray-500">
+                        /night
+                      </span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="lg:w-[28%] md:w-[28%] sm:w-full w-full h-auto">
