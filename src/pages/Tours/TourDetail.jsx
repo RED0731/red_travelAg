@@ -15,7 +15,12 @@ import "swiper/css";
 import "swiper/css/effect-creative";
 
 // import required modules
-import { Autoplay, EffectCreative } from "swiper/modules";
+import {
+  Autoplay,
+  EffectCreative,
+  Navigation,
+  EffectCoverflow,
+} from "swiper/modules";
 
 const TourDetail = () => {
   const Package = [
@@ -360,22 +365,83 @@ const TourDetail = () => {
                   Hotels from our contract.
                 </h1>
                 <div className="w-full h-auto flex items-center gap-7">
-                  <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
-                    <img
-                      src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
-                      alt="hotel img"
-                      className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
-                    />
-                    <h1 className="text-xl text-gray-600 font-bold px-2">
-                      Contracted First Hotel
-                    </h1>
-                    <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
-                      $180.32{" "}
-                      <span className="text-[0.9rem] text-gray-500">
-                        /night
-                      </span>
-                    </p>
-                  </div>
+                  <Swiper
+                    navigation={true}
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={"auto"}
+                    loop={true}
+                    autoplay={{
+                      delay: 2500,
+                      disableOnInteraction: false,
+                    }}
+                    coverflowEffect={{
+                      rotate: 50,
+                      stretch: 0,
+                      depth: 100,
+                      modifier: 1,
+                      slideShadows: true,
+                    }}
+                    modules={[Autoplay, Navigation, EffectCoverflow]}
+                    className=""
+                  >
+                    <SwiperSlide>
+                      {" "}
+                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
+                          alt="hotel img"
+                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                        />
+                        <h1 className="text-xl text-gray-600 font-bold px-2">
+                          Contracted First Hotel
+                        </h1>
+                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                          $180.32{" "}
+                          <span className="text-[0.9rem] text-gray-500">
+                            /night
+                          </span>
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_1280.jpg"
+                          alt="hotel img"
+                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                        />
+                        <h1 className="text-xl text-gray-600 font-bold px-2">
+                          Contracted Second Hotel
+                        </h1>
+                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                          $300.55{" "}
+                          <span className="text-[0.9rem] text-gray-500">
+                            /night
+                          </span>
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="w-[31%] h-auto hover:brightness-75 hover:shadow-md rounded-md ease-out duration-1000 overflow-hidden cursor-pointer">
+                        <img
+                          src="https://cdn.pixabay.com/photo/2021/08/27/01/33/bedroom-6577523_1280.jpg"
+                          alt="hotel img"
+                          className="w-full h-[28vh] object-cover object-center rounded brightness-75 mb-3"
+                        />
+                        <h1 className="text-xl text-gray-600 font-bold px-2">
+                          Contracted First Hotel
+                        </h1>
+                        <p className="text-orange-600 text-[0.99rem] font-medium px-2 pb-2">
+                          $180.32{" "}
+                          <span className="text-[0.9rem] text-gray-500">
+                            /night
+                          </span>
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
                 </div>
               </div>
             </div>
