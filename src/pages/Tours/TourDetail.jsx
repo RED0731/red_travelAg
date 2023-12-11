@@ -360,8 +360,8 @@ const TourDetail = () => {
                   labore dolorem beatae?
                 </p>
               </div>
-              <div className="w-full h-auto mb-8">
-                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+              <div className="w-full h-auto mb-10">
+                <h1 className="text-2xl text-gray-600 font-bold mb-10">
                   Hotels from our contract.
                 </h1>
                 <Swiper
@@ -471,6 +471,11 @@ const TourDetail = () => {
                     </div>
                   </SwiperSlide>
                 </Swiper>
+              </div>
+              <div className="w-full h-auto mb-8">
+                <h1 className="text-2xl text-gray-600 font-bold mb-4">
+                  Tour Memories/Gallery
+                </h1>
               </div>
             </div>
             {/* Popular tour */}
