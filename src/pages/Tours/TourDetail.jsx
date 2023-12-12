@@ -476,9 +476,47 @@ const TourDetail = () => {
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Tour Memories/Gallery
                 </h1>
-                <div className="w-full h-auto flex items-center gap-7">
-                  <img src="" alt="gallery" />
-                  <img src="" alt="gallery" />
+                <div className="w-full h-auto flex items-center gap-x-5 gap-y-6 flex-wrap">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2021/04/25/16/04/turkey-6206911_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/04/05/11/04/india-1309206_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/04/05/11/04/india-1309206_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2021/04/25/16/04/turkey-6206911_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
+                  <img
+                    src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_1280.jpg"
+                    alt="gallery"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                  />
                 </div>
               </div>
             </div>
