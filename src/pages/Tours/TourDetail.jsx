@@ -476,6 +476,9 @@ const TourDetail = () => {
                 <h1 className="text-2xl text-gray-600 font-bold mb-4">
                   Tour Memories/Gallery
                 </h1>
+                <p className="w-full h-auto ">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos veritatis assumenda, provident nostrum vero enim similique architecto dolores consectetur molestiae!
+                </p>
               </div>
             </div>
             {/* Popular tour */}
