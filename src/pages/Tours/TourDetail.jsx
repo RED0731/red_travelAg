@@ -480,42 +480,42 @@ const TourDetail = () => {
                   <img
                     src="https://cdn.pixabay.com/photo/2021/04/25/16/04/turkey-6206911_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2016/04/05/11/04/india-1309206_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2016/04/05/11/04/india-1309206_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2019/03/22/19/40/meteora-4074026_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2021/04/25/16/04/turkey-6206911_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                   <img
                     src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_1280.jpg"
                     alt="gallery"
-                    className="w-[23%] h-[20vh] object-cover object-center rounded-md"
+                    className="w-[23%] h-[20vh] object-cover object-center rounded-md brightness-50"
                   />
                 </div>
               </div>
